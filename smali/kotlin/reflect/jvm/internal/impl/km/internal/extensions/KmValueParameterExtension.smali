@@ -1,0 +1,7 @@
+###### Class kotlin.reflect.jvm.internal.impl.km.internal.extensions.KmValueParameterExtension (kotlin.reflect.jvm.internal.impl.km.internal.extensions.KmValueParameterExtension)
+.class public interface abstract Lkotlin/reflect/jvm/internal/impl/km/internal/extensions/KmValueParameterExtension;
+.super Ljava/lang/Object;
+.source "ExtensionNodes.kt"
+
+# interfaces
+.implements Lkotlin/reflect/jvm/internal/impl/km/internal/extensions/KmExtension;

@@ -1,0 +1,158 @@
+package androidx.webkit.internal;
+
+import android.webkit.SafeBrowsingResponse;
+import android.webkit.ServiceWorkerWebSettings;
+import android.webkit.WebMessagePort;
+import android.webkit.WebResourceError;
+import android.webkit.WebViewRenderProcess;
+import java.time.Duration;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.OffsetDateTime;
+import java.time.OffsetTime;
+import java.time.Period;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.chrono.ChronoZonedDateTime;
+import java.time.temporal.TemporalAccessor;
+import java.util.Optional;
+import java.util.OptionalDouble;
+import java.util.OptionalInt;
+import java.util.OptionalLong;
+
+/* JADX INFO: compiled from: D8$$SyntheticClass */
+/* JADX INFO: loaded from: classes.dex */
+public final /* synthetic */ class ApiHelperForP$$ExternalSyntheticApiModelOutline6 {
+    public static /* bridge */ /* synthetic */ SafeBrowsingResponse m(Object obj) {
+        return (SafeBrowsingResponse) obj;
+    }
+
+    /* JADX INFO: renamed from: m, reason: collision with other method in class */
+    public static /* bridge */ /* synthetic */ ServiceWorkerWebSettings m163m(Object obj) {
+        return (ServiceWorkerWebSettings) obj;
+    }
+
+    /* JADX INFO: renamed from: m, reason: collision with other method in class */
+    public static /* bridge */ /* synthetic */ WebMessagePort m164m(Object obj) {
+        return (WebMessagePort) obj;
+    }
+
+    /* JADX INFO: renamed from: m, reason: collision with other method in class */
+    public static /* bridge */ /* synthetic */ WebResourceError m165m(Object obj) {
+        return (WebResourceError) obj;
+    }
+
+    /* JADX INFO: renamed from: m, reason: collision with other method in class */
+    public static /* bridge */ /* synthetic */ WebViewRenderProcess m166m(Object obj) {
+        return (WebViewRenderProcess) obj;
+    }
+
+    public static /* bridge */ /* synthetic */ Class m() {
+        return LocalTime.class;
+    }
+
+    /* JADX INFO: renamed from: m, reason: collision with other method in class */
+    public static /* bridge */ /* synthetic */ LocalDateTime m175m(Object obj) {
+        return (LocalDateTime) obj;
+    }
+
+    /* JADX INFO: renamed from: m, reason: collision with other method in class */
+    public static /* bridge */ /* synthetic */ ChronoZonedDateTime m186m(Object obj) {
+        return (ChronoZonedDateTime) obj;
+    }
+
+    /* JADX INFO: renamed from: m, reason: collision with other method in class */
+    public static /* bridge */ /* synthetic */ TemporalAccessor m189m(Object obj) {
+        return (TemporalAccessor) obj;
+    }
+
+    /* JADX INFO: renamed from: m, reason: collision with other method in class */
+    public static /* bridge */ /* synthetic */ OptionalDouble m193m(Object obj) {
+        return (OptionalDouble) obj;
+    }
+
+    /* JADX INFO: renamed from: m, reason: collision with other method in class */
+    public static /* bridge */ /* synthetic */ OptionalInt m195m(Object obj) {
+        return (OptionalInt) obj;
+    }
+
+    /* JADX INFO: renamed from: m, reason: collision with other method in class */
+    public static /* bridge */ /* synthetic */ OptionalLong m198m(Object obj) {
+        return (OptionalLong) obj;
+    }
+
+    /* JADX INFO: renamed from: m, reason: collision with other method in class */
+    public static /* bridge */ /* synthetic */ boolean m199m(Object obj) {
+        return obj instanceof ChronoZonedDateTime;
+    }
+
+    public static /* bridge */ /* synthetic */ Class m$1() {
+        return ZonedDateTime.class;
+    }
+
+    public static /* bridge */ /* synthetic */ boolean m$1(Object obj) {
+        return obj instanceof LocalDateTime;
+    }
+
+    public static /* bridge */ /* synthetic */ Class m$10() {
+        return OptionalInt.class;
+    }
+
+    public static /* bridge */ /* synthetic */ Class m$11() {
+        return OptionalLong.class;
+    }
+
+    public static /* bridge */ /* synthetic */ Class m$12() {
+        return OptionalDouble.class;
+    }
+
+    public static /* bridge */ /* synthetic */ Class m$2() {
+        return OffsetDateTime.class;
+    }
+
+    public static /* bridge */ /* synthetic */ boolean m$2(Object obj) {
+        return obj instanceof OptionalDouble;
+    }
+
+    public static /* bridge */ /* synthetic */ Class m$3() {
+        return OffsetTime.class;
+    }
+
+    public static /* bridge */ /* synthetic */ boolean m$3(Object obj) {
+        return obj instanceof OptionalInt;
+    }
+
+    public static /* bridge */ /* synthetic */ Class m$4() {
+        return ZoneId.class;
+    }
+
+    public static /* bridge */ /* synthetic */ boolean m$4(Object obj) {
+        return obj instanceof Optional;
+    }
+
+    public static /* bridge */ /* synthetic */ Class m$5() {
+        return Period.class;
+    }
+
+    public static /* bridge */ /* synthetic */ boolean m$5(Object obj) {
+        return obj instanceof OptionalLong;
+    }
+
+    public static /* bridge */ /* synthetic */ Class m$6() {
+        return Duration.class;
+    }
+
+    public static /* bridge */ /* synthetic */ Class m$7() {
+        return Instant.class;
+    }
+
+    public static /* bridge */ /* synthetic */ Class m$8() {
+        return LocalDate.class;
+    }
+
+    public static /* bridge */ /* synthetic */ Class m$9() {
+        return LocalDateTime.class;
+    }
+}

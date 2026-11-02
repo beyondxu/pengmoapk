@@ -1,0 +1,260 @@
+###### Class com.alibaba.fastjson.serializer.CharArrayCodec (com.alibaba.fastjson.serializer.CharArrayCodec)
+.class public Lcom/alibaba/fastjson/serializer/CharArrayCodec;
+.super Ljava/lang/Object;
+.source "CharArrayCodec.java"
+
+# interfaces
+.implements Lcom/alibaba/fastjson/parser/deserializer/ObjectDeserializer;
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    .line 14
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static deserialze(Lcom/alibaba/fastjson/parser/DefaultJSONParser;)Ljava/lang/Object;
+    .registers 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lcom/alibaba/fastjson/parser/DefaultJSONParser;",
+            ")TT;"
+        }
+    .end annotation
+
+    .line 23
+    iget-object v0, p0, Lcom/alibaba/fastjson/parser/DefaultJSONParser;->lexer:Lcom/alibaba/fastjson/parser/JSONLexer;
+
+    .line 24
+    invoke-interface {v0}, Lcom/alibaba/fastjson/parser/JSONLexer;->token()I
+
+    move-result v1
+
+    const/4 v2, 0x4
+
+    const/16 v3, 0x10
+
+    if-ne v1, v2, :cond_17
+
+    .line 25
+    invoke-interface {v0}, Lcom/alibaba/fastjson/parser/JSONLexer;->stringVal()Ljava/lang/String;
+
+    move-result-object p0
+
+    .line 26
+    invoke-interface {v0, v3}, Lcom/alibaba/fastjson/parser/JSONLexer;->nextToken(I)V
+
+    .line 27
+    invoke-virtual {p0}, Ljava/lang/String;->toCharArray()[C
+
+    move-result-object p0
+
+    return-object p0
+
+    .line 30
+    :cond_17
+    invoke-interface {v0}, Lcom/alibaba/fastjson/parser/JSONLexer;->token()I
+
+    move-result v1
+
+    const/4 v2, 0x2
+
+    if-ne v1, v2, :cond_2e
+
+    .line 31
+    invoke-interface {v0}, Lcom/alibaba/fastjson/parser/JSONLexer;->integerValue()Ljava/lang/Number;
+
+    move-result-object p0
+
+    .line 32
+    invoke-interface {v0, v3}, Lcom/alibaba/fastjson/parser/JSONLexer;->nextToken(I)V
+
+    .line 33
+    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/String;->toCharArray()[C
+
+    move-result-object p0
+
+    return-object p0
+
+    .line 36
+    :cond_2e
+    invoke-virtual {p0}, Lcom/alibaba/fastjson/parser/DefaultJSONParser;->parse()Ljava/lang/Object;
+
+    move-result-object p0
+
+    .line 38
+    instance-of v0, p0, Ljava/lang/String;
+
+    if-eqz v0, :cond_3d
+
+    .line 39
+    check-cast p0, Ljava/lang/String;
+
+    invoke-virtual {p0}, Ljava/lang/String;->toCharArray()[C
+
+    move-result-object p0
+
+    return-object p0
+
+    .line 42
+    :cond_3d
+    instance-of v0, p0, Ljava/util/Collection;
+
+    if-eqz v0, :cond_8a
+
+    .line 43
+    check-cast p0, Ljava/util/Collection;
+
+    .line 46
+    invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :cond_47
+    :goto_47
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_67
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    .line 47
+    instance-of v2, v1, Ljava/lang/String;
+
+    if-eqz v2, :cond_47
+
+    .line 48
+    check-cast v1, Ljava/lang/String;
+
+    invoke-virtual {v1}, Ljava/lang/String;->length()I
+
+    move-result v1
+
+    const/4 v2, 0x1
+
+    if-ne v1, v2, :cond_5f
+
+    goto :goto_47
+
+    .line 57
+    :cond_5f
+    new-instance p0, Lcom/alibaba/fastjson/JSONException;
+
+    const-string v0, "can not cast to char[]"
+
+    invoke-direct {p0, v0}, Lcom/alibaba/fastjson/JSONException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    .line 60
+    :cond_67
+    invoke-interface {p0}, Ljava/util/Collection;->size()I
+
+    move-result v0
+
+    new-array v0, v0, [C
+
+    .line 62
+    invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+
+    move-result-object p0
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x0
+
+    :goto_73
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v3
+
+    if-eqz v3, :cond_89
+
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v3
+
+    add-int/lit8 v4, v2, 0x1
+
+    .line 63
+    check-cast v3, Ljava/lang/String;
+
+    invoke-virtual {v3, v1}, Ljava/lang/String;->charAt(I)C
+
+    move-result v3
+
+    aput-char v3, v0, v2
+
+    move v2, v4
+
+    goto :goto_73
+
+    :cond_89
+    return-object v0
+
+    :cond_8a
+    if-nez p0, :cond_8e
+
+    const/4 p0, 0x0
+
+    return-object p0
+
+    .line 70
+    :cond_8e
+    invoke-static {p0}, Lcom/alibaba/fastjson/JSON;->toJSONString(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/String;->toCharArray()[C
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public deserialze(Lcom/alibaba/fastjson/parser/DefaultJSONParser;Ljava/lang/reflect/Type;Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lcom/alibaba/fastjson/parser/DefaultJSONParser;",
+            "Ljava/lang/reflect/Type;",
+            "Ljava/lang/Object;",
+            ")TT;"
+        }
+    .end annotation
+
+    .line 18
+    invoke-static {p1}, Lcom/alibaba/fastjson/serializer/CharArrayCodec;->deserialze(Lcom/alibaba/fastjson/parser/DefaultJSONParser;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public getFastMatchToken()I
+    .registers 2
+
+    const/4 v0, 0x4
+
+    return v0
+.end method

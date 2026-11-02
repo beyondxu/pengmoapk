@@ -1,0 +1,751 @@
+###### Class io.dcloud.feature.weex.config.UserCustomTrustManager (io.dcloud.feature.weex.config.UserCustomTrustManager)
+.class public Lio/dcloud/feature/weex/config/UserCustomTrustManager;
+.super Ljava/lang/Object;
+.source "r8-map-id-b4716a25f9920722ba6f2d7f7c6f40e43a654927e8ebe1c489894a7bc6a88ab4"
+
+
+# static fields
+.field private static cacheCertSSLFactory:Ljava/util/HashMap;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/HashMap<",
+            "Lcom/taobao/weex/http/CertDTO;",
+            "Ljavax/net/ssl/SSLSocketFactory;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private static cacheSSLFactory:Ljava/util/HashMap;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/HashMap<",
+            "Lio/dcloud/feature/weex/config/AndroidTlsConfig;",
+            "Ljavax/net/ssl/SSLSocketFactory;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    sput-object v0, Lio/dcloud/feature/weex/config/UserCustomTrustManager;->cacheSSLFactory:Ljava/util/HashMap;
+
+    .line 2
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    sput-object v0, Lio/dcloud/feature/weex/config/UserCustomTrustManager;->cacheCertSSLFactory:Ljava/util/HashMap;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .registers 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static getSSLSocketFactory(Lcom/taobao/weex/http/CertDTO;Lcom/taobao/weex/WXSDKInstance;)Ljavax/net/ssl/SSLSocketFactory;
+    .registers 10
+
+    const-string v0, "PKCS12"
+
+    const/4 v1, 0x0
+
+    if-nez p0, :cond_6
+
+    return-object v1
+
+    .line 94
+    :cond_6
+    sget-object v2, Lio/dcloud/feature/weex/config/UserCustomTrustManager;->cacheCertSSLFactory:Ljava/util/HashMap;
+
+    invoke-virtual {v2, p0}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_19
+
+    .line 95
+    sget-object v2, Lio/dcloud/feature/weex/config/UserCustomTrustManager;->cacheCertSSLFactory:Ljava/util/HashMap;
+
+    invoke-virtual {v2, p0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljavax/net/ssl/SSLSocketFactory;
+
+    if-eqz v2, :cond_19
+
+    return-object v2
+
+    :cond_19
+    if-nez p1, :cond_1c
+
+    return-object v1
+
+    .line 110
+    :cond_1c
+    :try_start_1c
+    const-string v2, "TLS"
+
+    invoke-static {v2}, Ljavax/net/ssl/SSLContext;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/SSLContext;
+
+    move-result-object v2
+
+    .line 112
+    invoke-static {v0}, Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;
+
+    move-result-object v3
+
+    .line 114
+    invoke-static {}, Ljavax/net/ssl/KeyManagerFactory;->getDefaultAlgorithm()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v4}, Ljavax/net/ssl/KeyManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/KeyManagerFactory;
+
+    move-result-object v4
+
+    .line 117
+    iget-object v5, p0, Lcom/taobao/weex/http/CertDTO;->client:Ljava/lang/String;
+
+    invoke-static {v5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v5
+
+    xor-int/lit8 v5, v5, 0x1
+
+    iget-object v6, p0, Lcom/taobao/weex/http/CertDTO;->clientPassword:Ljava/lang/String;
+
+    invoke-static {v6}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v6
+
+    xor-int/lit8 v6, v6, 0x1
+
+    and-int/2addr v5, v6
+
+    if-eqz v5, :cond_71
+
+    .line 118
+    invoke-static {}, Lio/dcloud/feature/weex/config/MimeInfoParser;->getInstance()Lio/dcloud/feature/weex/config/MimeInfoParser;
+
+    move-result-object v5
+
+    iget-object v6, p0, Lcom/taobao/weex/http/CertDTO;->client:Ljava/lang/String;
+
+    invoke-virtual {v5, v6}, Lio/dcloud/feature/weex/config/MimeInfoParser;->obtainMimeInfo(Ljava/lang/String;)Lio/dcloud/feature/weex/config/MimeInfoParser$MimeInfo;
+
+    move-result-object v5
+
+    if-eqz v5, :cond_52
+
+    .line 121
+    invoke-virtual {v5, p1}, Lio/dcloud/feature/weex/config/MimeInfoParser$MimeInfo;->getDataBytes(Lcom/taobao/weex/WXSDKInstance;)Ljava/io/InputStream;
+
+    move-result-object v5
+
+    goto :goto_58
+
+    .line 124
+    :cond_52
+    iget-object v5, p0, Lcom/taobao/weex/http/CertDTO;->client:Ljava/lang/String;
+
+    invoke-static {p1, v5}, Lio/dcloud/feature/weex/config/MimeInfoParser;->getFilePathStream(Lcom/taobao/weex/WXSDKInstance;Ljava/lang/String;)Ljava/io/InputStream;
+
+    move-result-object v5
+
+    :goto_58
+    if-eqz v5, :cond_72
+
+    .line 129
+    invoke-virtual {p0}, Lcom/taobao/weex/http/CertDTO;->getClientPassword()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Ljava/lang/String;->toCharArray()[C
+
+    move-result-object v6
+
+    invoke-virtual {v3, v5, v6}, Ljava/security/KeyStore;->load(Ljava/io/InputStream;[C)V
+
+    .line 130
+    invoke-virtual {p0}, Lcom/taobao/weex/http/CertDTO;->getClientPassword()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Ljava/lang/String;->toCharArray()[C
+
+    move-result-object v5
+
+    invoke-virtual {v4, v3, v5}, Ljavax/net/ssl/KeyManagerFactory;->init(Ljava/security/KeyStore;[C)V
+
+    goto :goto_72
+
+    :cond_71
+    move-object v4, v1
+
+    .line 139
+    :cond_72
+    :goto_72
+    const-string v3, "X.509"
+
+    invoke-static {v3}, Ljava/security/cert/CertificateFactory;->getInstance(Ljava/lang/String;)Ljava/security/cert/CertificateFactory;
+
+    move-result-object v3
+
+    .line 140
+    invoke-static {v0}, Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;
+
+    move-result-object v0
+
+    const/4 v5, 0x0
+
+    .line 142
+    :goto_7d
+    invoke-virtual {p0}, Lcom/taobao/weex/http/CertDTO;->getServer()[Ljava/lang/String;
+
+    move-result-object v6
+
+    array-length v6, v6
+
+    if-ge v5, v6, :cond_b6
+
+    .line 144
+    invoke-static {}, Lio/dcloud/feature/weex/config/MimeInfoParser;->getInstance()Lio/dcloud/feature/weex/config/MimeInfoParser;
+
+    move-result-object v6
+
+    invoke-virtual {p0}, Lcom/taobao/weex/http/CertDTO;->getServer()[Ljava/lang/String;
+
+    move-result-object v7
+
+    aget-object v7, v7, v5
+
+    invoke-virtual {v6, v7}, Lio/dcloud/feature/weex/config/MimeInfoParser;->obtainMimeInfo(Ljava/lang/String;)Lio/dcloud/feature/weex/config/MimeInfoParser$MimeInfo;
+
+    move-result-object v6
+
+    if-eqz v6, :cond_99
+
+    .line 148
+    invoke-virtual {v6, p1}, Lio/dcloud/feature/weex/config/MimeInfoParser$MimeInfo;->getDataBytes(Lcom/taobao/weex/WXSDKInstance;)Ljava/io/InputStream;
+
+    move-result-object v6
+
+    goto :goto_a3
+
+    .line 150
+    :cond_99
+    invoke-virtual {p0}, Lcom/taobao/weex/http/CertDTO;->getServer()[Ljava/lang/String;
+
+    move-result-object v6
+
+    aget-object v6, v6, v5
+
+    invoke-static {p1, v6}, Lio/dcloud/feature/weex/config/MimeInfoParser;->getFilePathStream(Lcom/taobao/weex/WXSDKInstance;Ljava/lang/String;)Ljava/io/InputStream;
+
+    move-result-object v6
+
+    :goto_a3
+    if-eqz v6, :cond_b3
+
+    .line 153
+    invoke-virtual {v0, v1}, Ljava/security/KeyStore;->load(Ljava/security/KeyStore$LoadStoreParameter;)V
+
+    .line 154
+    invoke-static {v5}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+
+    move-result-object v7
+
+    .line 155
+    invoke-virtual {v3, v6}, Ljava/security/cert/CertificateFactory;->generateCertificate(Ljava/io/InputStream;)Ljava/security/cert/Certificate;
+
+    move-result-object v6
+
+    invoke-virtual {v0, v7, v6}, Ljava/security/KeyStore;->setCertificateEntry(Ljava/lang/String;Ljava/security/cert/Certificate;)V
+
+    :cond_b3
+    add-int/lit8 v5, v5, 0x1
+
+    goto :goto_7d
+
+    .line 160
+    :cond_b6
+    invoke-static {}, Ljavax/net/ssl/TrustManagerFactory;->getDefaultAlgorithm()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1}, Ljavax/net/ssl/TrustManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;
+
+    move-result-object p1
+
+    .line 161
+    invoke-virtual {p1, v0}, Ljavax/net/ssl/TrustManagerFactory;->init(Ljava/security/KeyStore;)V
+
+    if-nez v4, :cond_d0
+
+    .line 165
+    invoke-virtual {p1}, Ljavax/net/ssl/TrustManagerFactory;->getTrustManagers()[Ljavax/net/ssl/TrustManager;
+
+    move-result-object p1
+
+    new-instance v0, Ljava/security/SecureRandom;
+
+    invoke-direct {v0}, Ljava/security/SecureRandom;-><init>()V
+
+    invoke-virtual {v2, v1, p1, v0}, Ljavax/net/ssl/SSLContext;->init([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+
+    goto :goto_e0
+
+    .line 167
+    :cond_d0
+    invoke-virtual {v4}, Ljavax/net/ssl/KeyManagerFactory;->getKeyManagers()[Ljavax/net/ssl/KeyManager;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Ljavax/net/ssl/TrustManagerFactory;->getTrustManagers()[Ljavax/net/ssl/TrustManager;
+
+    move-result-object p1
+
+    new-instance v3, Ljava/security/SecureRandom;
+
+    invoke-direct {v3}, Ljava/security/SecureRandom;-><init>()V
+
+    invoke-virtual {v2, v0, p1, v3}, Ljavax/net/ssl/SSLContext;->init([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+
+    .line 171
+    :goto_e0
+    invoke-virtual {v2}, Ljavax/net/ssl/SSLContext;->getSocketFactory()Ljavax/net/ssl/SSLSocketFactory;
+
+    move-result-object p1
+
+    .line 174
+    sget-object v0, Lio/dcloud/feature/weex/config/UserCustomTrustManager;->cacheCertSSLFactory:Ljava/util/HashMap;
+
+    invoke-virtual {v0}, Ljava/util/HashMap;->size()I
+
+    move-result v0
+
+    const/4 v2, 0x3
+
+    if-le v0, v2, :cond_f2
+
+    .line 176
+    sget-object v0, Lio/dcloud/feature/weex/config/UserCustomTrustManager;->cacheCertSSLFactory:Ljava/util/HashMap;
+
+    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
+
+    .line 178
+    :cond_f2
+    sget-object v0, Lio/dcloud/feature/weex/config/UserCustomTrustManager;->cacheCertSSLFactory:Ljava/util/HashMap;
+
+    invoke-virtual {v0, p0, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    :try_end_f7
+    .catch Ljava/security/KeyManagementException; {:try_start_1c .. :try_end_f7} :catch_111
+    .catch Ljava/security/NoSuchAlgorithmException; {:try_start_1c .. :try_end_f7} :catch_10c
+    .catch Ljava/security/KeyStoreException; {:try_start_1c .. :try_end_f7} :catch_107
+    .catch Ljava/security/cert/CertificateException; {:try_start_1c .. :try_end_f7} :catch_102
+    .catch Ljava/io/IOException; {:try_start_1c .. :try_end_f7} :catch_fd
+    .catch Ljava/security/UnrecoverableKeyException; {:try_start_1c .. :try_end_f7} :catch_f8
+
+    return-object p1
+
+    :catch_f8
+    move-exception p0
+
+    .line 192
+    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+
+    goto :goto_115
+
+    :catch_fd
+    move-exception p0
+
+    .line 193
+    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+
+    goto :goto_115
+
+    :catch_102
+    move-exception p0
+
+    .line 194
+    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+
+    goto :goto_115
+
+    :catch_107
+    move-exception p0
+
+    .line 195
+    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+
+    goto :goto_115
+
+    :catch_10c
+    move-exception p0
+
+    .line 196
+    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+
+    goto :goto_115
+
+    :catch_111
+    move-exception p0
+
+    .line 197
+    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+
+    :goto_115
+    return-object v1
+.end method
+
+.method public static getSSLSocketFactory(Lio/dcloud/feature/weex/config/AndroidTlsConfig;Lcom/taobao/weex/WXSDKInstance;)Ljavax/net/ssl/SSLSocketFactory;
+    .registers 10
+
+    const-string v0, "PKCS12"
+
+    const/4 v1, 0x0
+
+    if-nez p0, :cond_6
+
+    return-object v1
+
+    .line 1
+    :cond_6
+    sget-object v2, Lio/dcloud/feature/weex/config/UserCustomTrustManager;->cacheSSLFactory:Ljava/util/HashMap;
+
+    invoke-virtual {v2, p0}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_19
+
+    .line 2
+    sget-object v2, Lio/dcloud/feature/weex/config/UserCustomTrustManager;->cacheSSLFactory:Ljava/util/HashMap;
+
+    invoke-virtual {v2, p0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljavax/net/ssl/SSLSocketFactory;
+
+    if-eqz v2, :cond_19
+
+    return-object v2
+
+    :cond_19
+    if-nez p1, :cond_1c
+
+    return-object v1
+
+    .line 18
+    :cond_1c
+    :try_start_1c
+    const-string v2, "TLS"
+
+    invoke-static {v2}, Ljavax/net/ssl/SSLContext;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/SSLContext;
+
+    move-result-object v2
+
+    .line 20
+    invoke-static {v0}, Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;
+
+    move-result-object v3
+
+    .line 22
+    invoke-static {}, Ljavax/net/ssl/KeyManagerFactory;->getDefaultAlgorithm()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v4}, Ljavax/net/ssl/KeyManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/KeyManagerFactory;
+
+    move-result-object v4
+
+    .line 25
+    invoke-virtual {p0}, Lio/dcloud/feature/weex/config/AndroidTlsConfig;->getKeystore()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-static {v5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v5
+
+    xor-int/lit8 v5, v5, 0x1
+
+    invoke-virtual {p0}, Lio/dcloud/feature/weex/config/AndroidTlsConfig;->getStorePass()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-static {v6}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v6
+
+    xor-int/lit8 v6, v6, 0x1
+
+    and-int/2addr v5, v6
+
+    if-eqz v5, :cond_6f
+
+    .line 26
+    invoke-static {}, Lio/dcloud/feature/weex/config/MimeInfoParser;->getInstance()Lio/dcloud/feature/weex/config/MimeInfoParser;
+
+    move-result-object v5
+
+    invoke-virtual {p0}, Lio/dcloud/feature/weex/config/AndroidTlsConfig;->getKeystore()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Lio/dcloud/feature/weex/config/MimeInfoParser;->obtainMimeInfo(Ljava/lang/String;)Lio/dcloud/feature/weex/config/MimeInfoParser$MimeInfo;
+
+    move-result-object v5
+
+    if-eqz v5, :cond_6e
+
+    .line 28
+    invoke-virtual {v5, p1}, Lio/dcloud/feature/weex/config/MimeInfoParser$MimeInfo;->getDataBytes(Lcom/taobao/weex/WXSDKInstance;)Ljava/io/InputStream;
+
+    move-result-object v5
+
+    .line 30
+    invoke-virtual {p0}, Lio/dcloud/feature/weex/config/AndroidTlsConfig;->getStorePass()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Ljava/lang/String;->toCharArray()[C
+
+    move-result-object v6
+
+    invoke-virtual {v3, v5, v6}, Ljava/security/KeyStore;->load(Ljava/io/InputStream;[C)V
+
+    .line 31
+    invoke-virtual {p0}, Lio/dcloud/feature/weex/config/AndroidTlsConfig;->getStorePass()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Ljava/lang/String;->toCharArray()[C
+
+    move-result-object v5
+
+    invoke-virtual {v4, v3, v5}, Ljavax/net/ssl/KeyManagerFactory;->init(Ljava/security/KeyStore;[C)V
+
+    goto :goto_70
+
+    :cond_6e
+    return-object v1
+
+    :cond_6f
+    move-object v4, v1
+
+    .line 41
+    :goto_70
+    const-string v3, "X.509"
+
+    invoke-static {v3}, Ljava/security/cert/CertificateFactory;->getInstance(Ljava/lang/String;)Ljava/security/cert/CertificateFactory;
+
+    move-result-object v3
+
+    .line 42
+    invoke-static {v0}, Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;
+
+    move-result-object v0
+
+    const/4 v5, 0x0
+
+    .line 44
+    :goto_7b
+    invoke-virtual {p0}, Lio/dcloud/feature/weex/config/AndroidTlsConfig;->getCa()[Ljava/lang/String;
+
+    move-result-object v6
+
+    array-length v6, v6
+
+    if-ge v5, v6, :cond_a7
+
+    .line 46
+    invoke-static {}, Lio/dcloud/feature/weex/config/MimeInfoParser;->getInstance()Lio/dcloud/feature/weex/config/MimeInfoParser;
+
+    move-result-object v6
+
+    invoke-virtual {p0}, Lio/dcloud/feature/weex/config/AndroidTlsConfig;->getCa()[Ljava/lang/String;
+
+    move-result-object v7
+
+    aget-object v7, v7, v5
+
+    invoke-virtual {v6, v7}, Lio/dcloud/feature/weex/config/MimeInfoParser;->obtainMimeInfo(Ljava/lang/String;)Lio/dcloud/feature/weex/config/MimeInfoParser$MimeInfo;
+
+    move-result-object v6
+
+    if-eqz v6, :cond_a4
+
+    .line 49
+    invoke-virtual {v6, p1}, Lio/dcloud/feature/weex/config/MimeInfoParser$MimeInfo;->getDataBytes(Lcom/taobao/weex/WXSDKInstance;)Ljava/io/InputStream;
+
+    move-result-object v6
+
+    .line 50
+    invoke-virtual {v0, v1}, Ljava/security/KeyStore;->load(Ljava/security/KeyStore$LoadStoreParameter;)V
+
+    .line 51
+    invoke-static {v5}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+
+    move-result-object v7
+
+    .line 52
+    invoke-virtual {v3, v6}, Ljava/security/cert/CertificateFactory;->generateCertificate(Ljava/io/InputStream;)Ljava/security/cert/Certificate;
+
+    move-result-object v6
+
+    invoke-virtual {v0, v7, v6}, Ljava/security/KeyStore;->setCertificateEntry(Ljava/lang/String;Ljava/security/cert/Certificate;)V
+
+    :cond_a4
+    add-int/lit8 v5, v5, 0x1
+
+    goto :goto_7b
+
+    .line 56
+    :cond_a7
+    invoke-static {}, Ljavax/net/ssl/TrustManagerFactory;->getDefaultAlgorithm()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1}, Ljavax/net/ssl/TrustManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;
+
+    move-result-object p1
+
+    .line 57
+    invoke-virtual {p1, v0}, Ljavax/net/ssl/TrustManagerFactory;->init(Ljava/security/KeyStore;)V
+
+    if-nez v4, :cond_c1
+
+    .line 61
+    invoke-virtual {p1}, Ljavax/net/ssl/TrustManagerFactory;->getTrustManagers()[Ljavax/net/ssl/TrustManager;
+
+    move-result-object p1
+
+    new-instance v0, Ljava/security/SecureRandom;
+
+    invoke-direct {v0}, Ljava/security/SecureRandom;-><init>()V
+
+    invoke-virtual {v2, v1, p1, v0}, Ljavax/net/ssl/SSLContext;->init([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+
+    goto :goto_d1
+
+    .line 63
+    :cond_c1
+    invoke-virtual {v4}, Ljavax/net/ssl/KeyManagerFactory;->getKeyManagers()[Ljavax/net/ssl/KeyManager;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Ljavax/net/ssl/TrustManagerFactory;->getTrustManagers()[Ljavax/net/ssl/TrustManager;
+
+    move-result-object p1
+
+    new-instance v3, Ljava/security/SecureRandom;
+
+    invoke-direct {v3}, Ljava/security/SecureRandom;-><init>()V
+
+    invoke-virtual {v2, v0, p1, v3}, Ljavax/net/ssl/SSLContext;->init([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+
+    .line 67
+    :goto_d1
+    invoke-virtual {v2}, Ljavax/net/ssl/SSLContext;->getSocketFactory()Ljavax/net/ssl/SSLSocketFactory;
+
+    move-result-object p1
+
+    .line 70
+    sget-object v0, Lio/dcloud/feature/weex/config/UserCustomTrustManager;->cacheSSLFactory:Ljava/util/HashMap;
+
+    invoke-virtual {v0}, Ljava/util/HashMap;->size()I
+
+    move-result v0
+
+    const/4 v2, 0x3
+
+    if-le v0, v2, :cond_e3
+
+    .line 72
+    sget-object v0, Lio/dcloud/feature/weex/config/UserCustomTrustManager;->cacheSSLFactory:Ljava/util/HashMap;
+
+    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
+
+    .line 74
+    :cond_e3
+    sget-object v0, Lio/dcloud/feature/weex/config/UserCustomTrustManager;->cacheSSLFactory:Ljava/util/HashMap;
+
+    invoke-virtual {v0, p0, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    :try_end_e8
+    .catch Ljava/security/KeyManagementException; {:try_start_1c .. :try_end_e8} :catch_102
+    .catch Ljava/security/NoSuchAlgorithmException; {:try_start_1c .. :try_end_e8} :catch_fd
+    .catch Ljava/security/KeyStoreException; {:try_start_1c .. :try_end_e8} :catch_f8
+    .catch Ljava/security/cert/CertificateException; {:try_start_1c .. :try_end_e8} :catch_f3
+    .catch Ljava/io/IOException; {:try_start_1c .. :try_end_e8} :catch_ee
+    .catch Ljava/security/UnrecoverableKeyException; {:try_start_1c .. :try_end_e8} :catch_e9
+
+    return-object p1
+
+    :catch_e9
+    move-exception p0
+
+    .line 88
+    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+
+    goto :goto_106
+
+    :catch_ee
+    move-exception p0
+
+    .line 89
+    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+
+    goto :goto_106
+
+    :catch_f3
+    move-exception p0
+
+    .line 90
+    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+
+    goto :goto_106
+
+    :catch_f8
+    move-exception p0
+
+    .line 91
+    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+
+    goto :goto_106
+
+    :catch_fd
+    move-exception p0
+
+    .line 92
+    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+
+    goto :goto_106
+
+    :catch_102
+    move-exception p0
+
+    .line 93
+    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+
+    :goto_106
+    return-object v1
+.end method

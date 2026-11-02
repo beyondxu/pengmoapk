@@ -1,0 +1,19 @@
+###### Class com.taobao.weex.common.WXRuntimeException (com.taobao.weex.common.WXRuntimeException)
+.class public Lcom/taobao/weex/common/WXRuntimeException;
+.super Ljava/lang/RuntimeException;
+.source "r8-map-id-b4716a25f9920722ba6f2d7f7c6f40e43a654927e8ebe1c489894a7bc6a88ab4"
+
+
+# static fields
+.field private static final serialVersionUID:J = 0x4f8d4667a93e5bd3L
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method

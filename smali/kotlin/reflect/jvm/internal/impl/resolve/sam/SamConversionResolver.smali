@@ -1,0 +1,4 @@
+###### Class kotlin.reflect.jvm.internal.impl.resolve.sam.SamConversionResolver (kotlin.reflect.jvm.internal.impl.resolve.sam.SamConversionResolver)
+.class public interface abstract Lkotlin/reflect/jvm/internal/impl/resolve/sam/SamConversionResolver;
+.super Ljava/lang/Object;
+.source "SamConversionResolver.kt"

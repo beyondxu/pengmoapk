@@ -1,0 +1,1999 @@
+文件夹 PATH 列表
+卷序列号为 53706253 497F:A8ED
+E:.
+├─resources
+│  ├─assets
+│  │  ├─apps
+│  │  │  └─__UNI__C09873E
+│  │  │      └─www
+│  │  │          ├─pages
+│  │  │          │  ├─about
+│  │  │          │  ├─help
+│  │  │          │  ├─home
+│  │  │          │  ├─idcard
+│  │  │          │  ├─index
+│  │  │          │  ├─photos
+│  │  │          │  ├─printlog
+│  │  │          │  ├─puzzleprint
+│  │  │          │  └─test
+│  │  │          └─static
+│  │  │              ├─img
+│  │  │              ├─photos
+│  │  │              └─sticker
+│  │  │                  ├─animal
+│  │  │                  ├─emoji
+│  │  │                  ├─festival
+│  │  │                  ├─fun
+│  │  │                  ├─graffiti
+│  │  │                  └─text
+│  │  ├─data
+│  │  ├─dexopt
+│  │  ├─fonts
+│  │  ├─res
+│  │  └─uni-uts
+│  │      └─uni-prompt
+│  ├─dc
+│  │  └─squareup
+│  │      └─okhttp3
+│  │          └─internal
+│  │              └─publicsuffix
+│  ├─io
+│  │  └─dcloud
+│  ├─kotlin
+│  │  ├─annotation
+│  │  ├─collections
+│  │  ├─concurrent
+│  │  │  └─atomics
+│  │  ├─coroutines
+│  │  ├─internal
+│  │  ├─ranges
+│  │  └─reflect
+│  ├─lib
+│  │  └─arm64-v8a
+│  ├─META-INF
+│  │  ├─com
+│  │  │  └─android
+│  │  │      └─build
+│  │  │          └─gradle
+│  │  └─services
+│  ├─okhttp3
+│  │  └─internal
+│  │      └─publicsuffix
+│  └─res
+│      ├─anim
+│      ├─animator
+│      ├─color
+│      ├─color-v23
+│      ├─drawable
+│      ├─drawable-anydpi
+│      ├─drawable-hdpi
+│      ├─drawable-ldpi
+│      ├─drawable-ldrtl-hdpi
+│      ├─drawable-ldrtl-mdpi
+│      ├─drawable-ldrtl-xhdpi
+│      ├─drawable-ldrtl-xxhdpi
+│      ├─drawable-ldrtl-xxxhdpi
+│      ├─drawable-mdpi
+│      ├─drawable-v23
+│      ├─drawable-watch
+│      ├─drawable-xhdpi
+│      ├─drawable-xxhdpi
+│      ├─drawable-xxxhdpi
+│      ├─interpolator
+│      ├─layout
+│      ├─layout-v22
+│      ├─layout-v26
+│      ├─layout-watch
+│      ├─menu
+│      ├─mipmap-xhdpi
+│      ├─mipmap-xxhdpi
+│      ├─mipmap-xxxhdpi
+│      ├─values
+│      ├─values-anydpi
+│      ├─values-en
+│      ├─values-en-rAU
+│      ├─values-en-rCA
+│      ├─values-en-rGB
+│      ├─values-en-rIN
+│      ├─values-h720dp
+│      ├─values-hdpi
+│      ├─values-land
+│      ├─values-large
+│      ├─values-ldltr
+│      ├─values-ldpi
+│      ├─values-ldrtl
+│      ├─values-ldrtl-hdpi
+│      ├─values-ldrtl-mdpi
+│      ├─values-ldrtl-xhdpi
+│      ├─values-ldrtl-xxhdpi
+│      ├─values-ldrtl-xxxhdpi
+│      ├─values-mdpi
+│      ├─values-night
+│      ├─values-port
+│      ├─values-sw600dp
+│      ├─values-v22
+│      ├─values-v23
+│      ├─values-v24
+│      ├─values-v25
+│      ├─values-v26
+│      ├─values-v28
+│      ├─values-v29
+│      ├─values-v32
+│      ├─values-watch
+│      ├─values-xhdpi
+│      ├─values-xlarge
+│      ├─values-xxhdpi
+│      ├─values-xxxhdpi
+│      ├─values-zh
+│      ├─values-zh-rCN
+│      ├─values-zh-rHK
+│      ├─values-zh-rTW
+│      └─xml
+├─smali
+│  ├─android
+│  │  └─support
+│  │      └─v4
+│  │          ├─app
+│  │          ├─graphics
+│  │          │  └─drawable
+│  │          └─os
+│  ├─androidtranscoder
+│  │  ├─engine
+│  │  ├─format
+│  │  └─utils
+│  ├─androidx
+│  │  ├─activity
+│  │  │  ├─contextaware
+│  │  │  ├─ktx
+│  │  │  └─result
+│  │  │      └─contract
+│  │  ├─annotation
+│  │  │  └─experimental
+│  │  ├─appcompat
+│  │  │  ├─app
+│  │  │  ├─content
+│  │  │  │  └─res
+│  │  │  ├─graphics
+│  │  │  │  └─drawable
+│  │  │  ├─resources
+│  │  │  ├─text
+│  │  │  ├─view
+│  │  │  │  └─menu
+│  │  │  └─widget
+│  │  ├─arch
+│  │  │  └─core
+│  │  │      ├─executor
+│  │  │      ├─internal
+│  │  │      └─util
+│  │  ├─collection
+│  │  ├─concurrent
+│  │  │  └─futures
+│  │  ├─core
+│  │  │  ├─accessibilityservice
+│  │  │  ├─animation
+│  │  │  ├─app
+│  │  │  │  └─unusedapprestrictions
+│  │  │  ├─content
+│  │  │  │  ├─pm
+│  │  │  │  └─res
+│  │  │  ├─database
+│  │  │  │  └─sqlite
+│  │  │  ├─graphics
+│  │  │  │  └─drawable
+│  │  │  ├─hardware
+│  │  │  │  ├─display
+│  │  │  │  └─fingerprint
+│  │  │  ├─internal
+│  │  │  │  └─view
+│  │  │  ├─ktx
+│  │  │  ├─location
+│  │  │  ├─math
+│  │  │  ├─net
+│  │  │  ├─os
+│  │  │  ├─provider
+│  │  │  ├─service
+│  │  │  │  └─quicksettings
+│  │  │  ├─telephony
+│  │  │  │  └─mbms
+│  │  │  ├─text
+│  │  │  │  ├─method
+│  │  │  │  └─util
+│  │  │  ├─transition
+│  │  │  ├─util
+│  │  │  ├─view
+│  │  │  │  ├─accessibility
+│  │  │  │  ├─animation
+│  │  │  │  ├─autofill
+│  │  │  │  ├─contentcapture
+│  │  │  │  └─inputmethod
+│  │  │  └─widget
+│  │  ├─cursoradapter
+│  │  │  └─widget
+│  │  ├─customview
+│  │  │  ├─view
+│  │  │  └─widget
+│  │  ├─drawerlayout
+│  │  │  └─widget
+│  │  ├─emoji2
+│  │  │  ├─text
+│  │  │  │  └─flatbuffer
+│  │  │  └─viewsintegration
+│  │  ├─exifinterface
+│  │  │  └─media
+│  │  ├─fragment
+│  │  │  └─app
+│  │  ├─interpolator
+│  │  │  └─view
+│  │  │      └─animation
+│  │  ├─lifecycle
+│  │  │  ├─ktx
+│  │  │  ├─livedata
+│  │  │  │  └─core
+│  │  │  ├─process
+│  │  │  ├─runtime
+│  │  │  └─viewmodel
+│  │  │      ├─ktx
+│  │  │      └─savedstate
+│  │  ├─loader
+│  │  │  ├─app
+│  │  │  └─content
+│  │  ├─localbroadcastmanager
+│  │  │  └─content
+│  │  ├─multidex
+│  │  ├─profileinstaller
+│  │  ├─recyclerview
+│  │  │  └─widget
+│  │  ├─resourceinspection
+│  │  │  └─annotation
+│  │  ├─savedstate
+│  │  │  └─ktx
+│  │  ├─startup
+│  │  ├─tracing
+│  │  ├─vectordrawable
+│  │  │  ├─animated
+│  │  │  └─graphics
+│  │  │      └─drawable
+│  │  ├─versionedparcelable
+│  │  ├─viewpager
+│  │  │  └─widget
+│  │  └─webkit
+│  │      └─internal
+│  ├─bolts
+│  ├─com
+│  │  ├─alibaba
+│  │  │  ├─android
+│  │  │  │  └─bindingx
+│  │  │  │      ├─core
+│  │  │  │      │  └─internal
+│  │  │  │      └─plugin
+│  │  │  │          └─weex
+│  │  │  └─fastjson
+│  │  │      ├─annotation
+│  │  │      ├─asm
+│  │  │      ├─parser
+│  │  │      │  └─deserializer
+│  │  │      ├─serializer
+│  │  │      ├─spi
+│  │  │      ├─support
+│  │  │      │  ├─config
+│  │  │      │  ├─geo
+│  │  │      │  ├─hsf
+│  │  │      │  ├─jaxrs
+│  │  │      │  ├─moneta
+│  │  │      │  ├─retrofit
+│  │  │      │  ├─spring
+│  │  │      │  │  ├─annotation
+│  │  │      │  │  └─messaging
+│  │  │      │  └─springfox
+│  │  │      └─util
+│  │  ├─asus
+│  │  │  └─msa
+│  │  │      ├─sdid
+│  │  │      └─SupplementaryDID
+│  │  ├─bumptech
+│  │  │  └─glide
+│  │  │      ├─annotation
+│  │  │      │  ├─compiler
+│  │  │      │  └─ksp
+│  │  │      ├─disklrucache
+│  │  │      ├─gifdecoder
+│  │  │      ├─load
+│  │  │      │  ├─data
+│  │  │      │  │  └─mediastore
+│  │  │      │  ├─engine
+│  │  │      │  │  ├─bitmap_recycle
+│  │  │      │  │  ├─cache
+│  │  │      │  │  ├─executor
+│  │  │      │  │  └─prefill
+│  │  │      │  ├─model
+│  │  │      │  │  └─stream
+│  │  │      │  └─resource
+│  │  │      │      ├─bitmap
+│  │  │      │      ├─bytes
+│  │  │      │      ├─drawable
+│  │  │      │      ├─file
+│  │  │      │      ├─gif
+│  │  │      │      └─transcode
+│  │  │      ├─manager
+│  │  │      ├─module
+│  │  │      ├─provider
+│  │  │      ├─request
+│  │  │      │  ├─target
+│  │  │      │  └─transition
+│  │  │      ├─signature
+│  │  │      └─util
+│  │  │          └─pool
+│  │  ├─bun
+│  │  │  ├─lib
+│  │  │  ├─miitmdid
+│  │  │  │  ├─a
+│  │  │  │  │  └─c
+│  │  │  │  ├─b
+│  │  │  │  ├─c
+│  │  │  │  │  ├─b
+│  │  │  │  │  ├─c
+│  │  │  │  │  ├─d
+│  │  │  │  │  ├─e
+│  │  │  │  │  ├─f
+│  │  │  │  │  ├─g
+│  │  │  │  │  ├─h
+│  │  │  │  │  ├─i
+│  │  │  │  │  ├─j
+│  │  │  │  │  │  └─b
+│  │  │  │  │  └─k
+│  │  │  │  ├─core
+│  │  │  │  ├─d
+│  │  │  │  └─supplier
+│  │  │  │      ├─msa
+│  │  │  │      └─sumsung
+│  │  │  └─supplier
+│  │  ├─dcloud
+│  │  │  ├─android
+│  │  │  │  ├─annotation
+│  │  │  │  ├─downloader
+│  │  │  │  │  ├─callback
+│  │  │  │  │  ├─config
+│  │  │  │  │  ├─core
+│  │  │  │  │  │  ├─task
+│  │  │  │  │  │  └─thread
+│  │  │  │  │  ├─db
+│  │  │  │  │  ├─domain
+│  │  │  │  │  └─exception
+│  │  │  │  ├─graphics
+│  │  │  │  ├─v4
+│  │  │  │  │  ├─accessibilityservice
+│  │  │  │  │  ├─view
+│  │  │  │  │  │  ├─accessibility
+│  │  │  │  │  │  └─animation
+│  │  │  │  │  └─widget
+│  │  │  │  └─widget
+│  │  │  │      ├─dialog
+│  │  │  │      ├─photoview
+│  │  │  │      └─toast
+│  │  │  └─zxing2
+│  │  │      ├─aztec
+│  │  │      │  ├─decoder
+│  │  │      │  ├─detector
+│  │  │      │  └─encoder
+│  │  │      ├─client
+│  │  │      │  └─result
+│  │  │      ├─common
+│  │  │      │  ├─detector
+│  │  │      │  └─reedsolomon
+│  │  │      ├─datamatrix
+│  │  │      │  ├─decoder
+│  │  │      │  ├─detector
+│  │  │      │  └─encoder
+│  │  │      ├─maxicode
+│  │  │      │  └─decoder
+│  │  │      ├─multi
+│  │  │      │  └─qrcode
+│  │  │      │      └─detector
+│  │  │      ├─oned
+│  │  │      │  └─rss
+│  │  │      │      └─expanded
+│  │  │      │          └─decoders
+│  │  │      ├─pdf417
+│  │  │      │  ├─decoder
+│  │  │      │  │  └─ec
+│  │  │      │  ├─detector
+│  │  │      │  └─encoder
+│  │  │      └─qrcode
+│  │  │          ├─decoder
+│  │  │          ├─detector
+│  │  │          └─encoder
+│  │  ├─dmcbig
+│  │  │  └─mediapicker
+│  │  │      ├─adapter
+│  │  │      ├─data
+│  │  │      ├─entity
+│  │  │      ├─utils
+│  │  │      └─view
+│  │  ├─facebook
+│  │  │  ├─animated
+│  │  │  │  ├─drawable
+│  │  │  │  ├─gif
+│  │  │  │  ├─webp
+│  │  │  │  └─webpdrawable
+│  │  │  ├─binaryresource
+│  │  │  ├─cache
+│  │  │  │  ├─common
+│  │  │  │  └─disk
+│  │  │  ├─callercontext
+│  │  │  ├─common
+│  │  │  │  ├─activitylistener
+│  │  │  │  ├─callercontext
+│  │  │  │  ├─closeables
+│  │  │  │  ├─disk
+│  │  │  │  ├─executors
+│  │  │  │  ├─file
+│  │  │  │  ├─internal
+│  │  │  │  ├─lifecycle
+│  │  │  │  ├─logging
+│  │  │  │  ├─media
+│  │  │  │  ├─memory
+│  │  │  │  ├─references
+│  │  │  │  ├─statfs
+│  │  │  │  ├─streams
+│  │  │  │  ├─time
+│  │  │  │  ├─util
+│  │  │  │  └─webp
+│  │  │  ├─datasource
+│  │  │  ├─drawable
+│  │  │  │  └─base
+│  │  │  ├─drawee
+│  │  │  │  ├─backends
+│  │  │  │  │  └─pipeline
+│  │  │  │  │      └─info
+│  │  │  │  │          └─internal
+│  │  │  │  ├─components
+│  │  │  │  ├─controller
+│  │  │  │  ├─debug
+│  │  │  │  │  └─listener
+│  │  │  │  ├─drawable
+│  │  │  │  ├─generic
+│  │  │  │  ├─gestures
+│  │  │  │  ├─interfaces
+│  │  │  │  └─view
+│  │  │  ├─fbcore
+│  │  │  ├─fresco
+│  │  │  │  ├─animation
+│  │  │  │  │  ├─backend
+│  │  │  │  │  ├─bitmap
+│  │  │  │  │  │  ├─cache
+│  │  │  │  │  │  ├─preparation
+│  │  │  │  │  │  │  ├─loadframe
+│  │  │  │  │  │  │  └─ondemandanimation
+│  │  │  │  │  │  └─wrapper
+│  │  │  │  │  ├─drawable
+│  │  │  │  │  │  └─animator
+│  │  │  │  │  ├─factory
+│  │  │  │  │  └─frame
+│  │  │  │  ├─common
+│  │  │  │  │  └─middleware
+│  │  │  │  ├─memorytypes
+│  │  │  │  │  ├─ashmem
+│  │  │  │  │  ├─nativememory
+│  │  │  │  │  └─simple
+│  │  │  │  ├─middleware
+│  │  │  │  ├─soloader
+│  │  │  │  ├─ui
+│  │  │  │  │  ├─common
+│  │  │  │  │  └─core
+│  │  │  │  ├─urimod
+│  │  │  │  └─vito
+│  │  │  │      ├─options
+│  │  │  │      ├─renderer
+│  │  │  │      │  └─util
+│  │  │  │      └─source
+│  │  │  ├─imageformat
+│  │  │  ├─imagepipeline
+│  │  │  │  ├─animated
+│  │  │  │  │  ├─base
+│  │  │  │  │  ├─factory
+│  │  │  │  │  ├─impl
+│  │  │  │  │  └─util
+│  │  │  │  ├─bitmaps
+│  │  │  │  ├─cache
+│  │  │  │  ├─common
+│  │  │  │  ├─core
+│  │  │  │  ├─datasource
+│  │  │  │  ├─debug
+│  │  │  │  ├─decoder
+│  │  │  │  ├─drawable
+│  │  │  │  ├─filter
+│  │  │  │  ├─image
+│  │  │  │  ├─instrumentation
+│  │  │  │  ├─listener
+│  │  │  │  ├─memory
+│  │  │  │  ├─multiuri
+│  │  │  │  ├─nativecode
+│  │  │  │  ├─platform
+│  │  │  │  ├─postprocessors
+│  │  │  │  ├─producers
+│  │  │  │  ├─request
+│  │  │  │  ├─systrace
+│  │  │  │  ├─transcoder
+│  │  │  │  └─transformation
+│  │  │  ├─imagepipelinebase
+│  │  │  ├─imageutils
+│  │  │  ├─infer
+│  │  │  │  └─annotation
+│  │  │  ├─memory
+│  │  │  │  └─helper
+│  │  │  ├─nativefilters
+│  │  │  ├─nativeimagetranscoder
+│  │  │  ├─soloader
+│  │  │  │  ├─nativeloader
+│  │  │  │  └─recovery
+│  │  │  ├─webpsupport
+│  │  │  └─widget
+│  │  │      └─text
+│  │  │          └─span
+│  │  ├─frogtosea
+│  │  │  └─ccdy
+│  │  ├─google
+│  │  │  └─common
+│  │  │      └─util
+│  │  │          └─concurrent
+│  │  ├─heytap
+│  │  │  └─openid
+│  │  │      └─sdk
+│  │  ├─hjq
+│  │  │  └─permissions
+│  │  ├─huawei
+│  │  │  └─android
+│  │  │      └─hms
+│  │  │          └─pps
+│  │  │              └─a
+│  │  ├─j0data
+│  │  │  └─sdk
+│  │  ├─meizu
+│  │  │  └─flyme
+│  │  │      └─openidsdk
+│  │  ├─nostra13
+│  │  │  └─dcloudimageloader
+│  │  │      ├─cache
+│  │  │      │  ├─disc
+│  │  │      │  │  ├─impl
+│  │  │      │  │  └─naming
+│  │  │      │  └─memory
+│  │  │      │      └─impl
+│  │  │      ├─core
+│  │  │      │  ├─assist
+│  │  │      │  │  └─deque
+│  │  │      │  ├─decode
+│  │  │      │  ├─display
+│  │  │      │  ├─download
+│  │  │      │  ├─imageaware
+│  │  │      │  └─process
+│  │  │      └─utils
+│  │  ├─sample
+│  │  │  ├─breakpad
+│  │  │  └─breakpad_build
+│  │  ├─samsung
+│  │  │  └─android
+│  │  │      └─deviceidservice
+│  │  ├─taobao
+│  │  │  └─weex
+│  │  │      ├─adapter
+│  │  │      ├─annotation
+│  │  │      ├─appfram
+│  │  │      │  ├─clipboard
+│  │  │      │  ├─navigator
+│  │  │      │  ├─pickers
+│  │  │      │  ├─storage
+│  │  │      │  └─websocket
+│  │  │      ├─base
+│  │  │      ├─bridge
+│  │  │      ├─common
+│  │  │      ├─dom
+│  │  │      │  ├─binding
+│  │  │      │  └─transition
+│  │  │      ├─el
+│  │  │      │  └─parse
+│  │  │      ├─font
+│  │  │      ├─http
+│  │  │      ├─instance
+│  │  │      ├─layout
+│  │  │      │  └─measurefunc
+│  │  │      ├─performance
+│  │  │      ├─render
+│  │  │      ├─tracing
+│  │  │      ├─ui
+│  │  │      │  ├─action
+│  │  │      │  ├─animation
+│  │  │      │  ├─component
+│  │  │      │  │  ├─basic
+│  │  │      │  │  ├─binding
+│  │  │      │  │  ├─helper
+│  │  │      │  │  ├─list
+│  │  │      │  │  │  └─template
+│  │  │      │  │  │      └─jni
+│  │  │      │  │  ├─pesudo
+│  │  │      │  │  └─richtext
+│  │  │      │  │      ├─node
+│  │  │      │  │      └─span
+│  │  │      │  ├─config
+│  │  │      │  ├─flat
+│  │  │      │  │  └─widget
+│  │  │      │  ├─module
+│  │  │      │  └─view
+│  │  │      │      ├─border
+│  │  │      │      ├─gesture
+│  │  │      │      ├─listview
+│  │  │      │      │  └─adapter
+│  │  │      │      └─refresh
+│  │  │      │          ├─circlebar
+│  │  │      │          ├─core
+│  │  │      │          └─wrapper
+│  │  │      ├─utils
+│  │  │      │  ├─batch
+│  │  │      │  ├─cache
+│  │  │      │  └─tools
+│  │  │      └─wson
+│  │  └─zui
+│  │      ├─deviceidservice
+│  │      └─opendeviceidlibrary
+│  ├─dc
+│  │  └─squareup
+│  │      ├─cookie
+│  │      ├─okhttp3
+│  │      │  └─internal
+│  │      │      ├─cache
+│  │      │      ├─cache2
+│  │      │      ├─connection
+│  │      │      ├─http
+│  │      │      ├─http1
+│  │      │      ├─http2
+│  │      │      ├─io
+│  │      │      ├─platform
+│  │      │      ├─proxy
+│  │      │      ├─publicsuffix
+│  │      │      ├─tls
+│  │      │      └─ws
+│  │      └─okio
+│  ├─io
+│  │  ├─dcloud
+│  │  │  ├─api
+│  │  │  │  └─custom
+│  │  │  │      ├─base
+│  │  │  │      └─type
+│  │  │  │          ├─draw
+│  │  │  │          ├─feed
+│  │  │  │          ├─full
+│  │  │  │          ├─interstitial
+│  │  │  │          ├─reward
+│  │  │  │          └─splash
+│  │  │  ├─application
+│  │  │  ├─base
+│  │  │  ├─common
+│  │  │  │  ├─adapter
+│  │  │  │  │  ├─io
+│  │  │  │  │  ├─ui
+│  │  │  │  │  │  ├─fresh
+│  │  │  │  │  │  └─webview
+│  │  │  │  │  └─util
+│  │  │  │  ├─constant
+│  │  │  │  ├─core
+│  │  │  │  │  ├─a
+│  │  │  │  │  ├─permission
+│  │  │  │  │  └─ui
+│  │  │  │  │      └─keyboard
+│  │  │  │  ├─cs
+│  │  │  │  ├─DHInterface
+│  │  │  │  │  └─message
+│  │  │  │  │      └─action
+│  │  │  │  ├─ui
+│  │  │  │  │  ├─blur
+│  │  │  │  │  └─Info
+│  │  │  │  └─util
+│  │  │  │      ├─db
+│  │  │  │      ├─emulator
+│  │  │  │      ├─hostpicker
+│  │  │  │      ├─language
+│  │  │  │      └─net
+│  │  │  │          └─http
+│  │  │  ├─feature
+│  │  │  │  ├─add
+│  │  │  │  ├─audio
+│  │  │  │  │  ├─aac
+│  │  │  │  │  ├─mp3
+│  │  │  │  │  └─recorder
+│  │  │  │  ├─barcode2
+│  │  │  │  │  ├─camera
+│  │  │  │  │  ├─decoding
+│  │  │  │  │  └─view
+│  │  │  │  ├─bluetooth
+│  │  │  │  ├─device
+│  │  │  │  ├─gallery
+│  │  │  │  │  └─imageedit
+│  │  │  │  │      └─view
+│  │  │  │  ├─gg
+│  │  │  │  │  └─dcloud
+│  │  │  │  │      └─dcmgr
+│  │  │  │  ├─internal
+│  │  │  │  │  ├─reflect
+│  │  │  │  │  ├─sdk
+│  │  │  │  │  └─splash
+│  │  │  │  ├─nativeObj
+│  │  │  │  │  ├─data
+│  │  │  │  │  ├─photoview
+│  │  │  │  │  │  └─subscaleview
+│  │  │  │  │  │      └─decoder
+│  │  │  │  │  └─richtext
+│  │  │  │  │      ├─dom
+│  │  │  │  │      └─span
+│  │  │  │  ├─oauth
+│  │  │  │  ├─pack
+│  │  │  │  ├─payment
+│  │  │  │  ├─pdr
+│  │  │  │  ├─sensor
+│  │  │  │  ├─ui
+│  │  │  │  │  ├─nativeui
+│  │  │  │  │  └─navigator
+│  │  │  │  ├─uniapp
+│  │  │  │  │  ├─adapter
+│  │  │  │  │  ├─annotation
+│  │  │  │  │  ├─bridge
+│  │  │  │  │  ├─common
+│  │  │  │  │  ├─dom
+│  │  │  │  │  ├─layout
+│  │  │  │  │  ├─ui
+│  │  │  │  │  │  ├─action
+│  │  │  │  │  │  ├─animation
+│  │  │  │  │  │  ├─component
+│  │  │  │  │  │  └─shadow
+│  │  │  │  │  └─utils
+│  │  │  │  │      └─bitmap
+│  │  │  │  ├─utsplugin
+│  │  │  │  ├─weex
+│  │  │  │  │  ├─adapter
+│  │  │  │  │  │  ├─Fresco
+│  │  │  │  │  │  │  └─imagepipeline
+│  │  │  │  │  │  ├─webview
+│  │  │  │  │  │  │  └─video
+│  │  │  │  │  │  └─widget
+│  │  │  │  │  │      └─refresh
+│  │  │  │  │  ├─config
+│  │  │  │  │  └─extend
+│  │  │  │  │      └─result
+│  │  │  │  ├─weex_barcode
+│  │  │  │  ├─weex_input
+│  │  │  │  ├─weex_scroller
+│  │  │  │  │  ├─helper
+│  │  │  │  │  └─view
+│  │  │  │  ├─weex_switch
+│  │  │  │  ├─weex_text
+│  │  │  │  └─weex_websocket
+│  │  │  ├─glide
+│  │  │  ├─includePermissions
+│  │  │  ├─invocation
+│  │  │  ├─js
+│  │  │  │  ├─camera
+│  │  │  │  ├─file
+│  │  │  │  ├─gallery
+│  │  │  │  └─geolocation
+│  │  │  │      └─system
+│  │  │  ├─net
+│  │  │  ├─nineoldandroids
+│  │  │  │  ├─animation
+│  │  │  │  ├─util
+│  │  │  │  └─view
+│  │  │  │      └─animation
+│  │  │  ├─p
+│  │  │  ├─sdk
+│  │  │  │  ├─activity
+│  │  │  │  ├─base
+│  │  │  │  │  ├─dcloud
+│  │  │  │  │  ├─entry
+│  │  │  │  │  └─service
+│  │  │  │  │      └─provider
+│  │  │  │  ├─core
+│  │  │  │  │  ├─adapter
+│  │  │  │  │  ├─entry
+│  │  │  │  │  ├─interfaces
+│  │  │  │  │  ├─module
+│  │  │  │  │  ├─util
+│  │  │  │  │  └─v3
+│  │  │  │  │      ├─base
+│  │  │  │  │      ├─cp
+│  │  │  │  │      ├─drama
+│  │  │  │  │      ├─dw
+│  │  │  │  │      ├─fd
+│  │  │  │  │      ├─fs
+│  │  │  │  │      ├─inters
+│  │  │  │  │      ├─pv
+│  │  │  │  │      ├─rew
+│  │  │  │  │      └─sp
+│  │  │  │  └─poly
+│  │  │  │      ├─api
+│  │  │  │      └─base
+│  │  │  │          └─utils
+│  │  │  ├─share
+│  │  │  ├─uniapp
+│  │  │  │  └─extapi
+│  │  │  ├─unicloud
+│  │  │  ├─uts
+│  │  │  │  ├─android
+│  │  │  │  ├─component
+│  │  │  │  ├─gson
+│  │  │  │  │  ├─annotations
+│  │  │  │  │  ├─internal
+│  │  │  │  │  │  ├─bind
+│  │  │  │  │  │  │  └─util
+│  │  │  │  │  │  ├─reflect
+│  │  │  │  │  │  └─sql
+│  │  │  │  │  ├─reflect
+│  │  │  │  │  └─stream
+│  │  │  │  ├─json
+│  │  │  │  ├─log
+│  │  │  │  ├─nativeregex
+│  │  │  │  ├─prompt
+│  │  │  │  ├─task
+│  │  │  │  ├─uniArrayBufferToBase64
+│  │  │  │  ├─uniBase64ToArrayBuffer
+│  │  │  │  ├─uniChooseMedia
+│  │  │  │  ├─uniCreateRequestPermissionListener
+│  │  │  │  ├─uniExit
+│  │  │  │  ├─uniGetAccessibilityInfo
+│  │  │  │  ├─uniGetAppBaseInfo
+│  │  │  │  ├─uniGetDeviceInfo
+│  │  │  │  ├─uniGetSystemSetting
+│  │  │  │  ├─uniNetwork
+│  │  │  │  ├─uniPrivacy
+│  │  │  │  ├─uniStorage
+│  │  │  │  └─utils
+│  │  │  └─weex
+│  │  └─src
+│  │      └─dcloud
+│  │          └─adapter
+│  ├─javax
+│  │  └─annotation
+│  │      ├─concurrent
+│  │      └─meta
+│  ├─kotlin
+│  │  ├─annotation
+│  │  ├─annotations
+│  │  │  └─jvm
+│  │  ├─collections
+│  │  │  ├─builders
+│  │  │  ├─jdk8
+│  │  │  └─unsigned
+│  │  ├─comparisons
+│  │  ├─concurrent
+│  │  │  ├─atomics
+│  │  │  └─internal
+│  │  ├─contracts
+│  │  ├─coroutines
+│  │  │  ├─cancellation
+│  │  │  ├─intrinsics
+│  │  │  └─jvm
+│  │  │      └─internal
+│  │  ├─enums
+│  │  ├─experimental
+│  │  ├─internal
+│  │  │  ├─jdk7
+│  │  │  └─jdk8
+│  │  ├─io
+│  │  │  ├─encoding
+│  │  │  └─path
+│  │  ├─jdk7
+│  │  ├─js
+│  │  ├─jvm
+│  │  │  ├─functions
+│  │  │  ├─internal
+│  │  │  │  ├─markers
+│  │  │  │  └─unsafe
+│  │  │  ├─jdk8
+│  │  │  └─optionals
+│  │  ├─math
+│  │  ├─properties
+│  │  ├─random
+│  │  │  └─jdk8
+│  │  ├─ranges
+│  │  ├─reflect
+│  │  │  ├─full
+│  │  │  └─jvm
+│  │  │      └─internal
+│  │  │          ├─calls
+│  │  │          └─impl
+│  │  │              ├─builtins
+│  │  │              │  ├─functions
+│  │  │              │  └─jvm
+│  │  │              ├─descriptors
+│  │  │              │  ├─annotations
+│  │  │              │  ├─deserialization
+│  │  │              │  ├─impl
+│  │  │              │  ├─java
+│  │  │              │  └─runtime
+│  │  │              │      ├─components
+│  │  │              │      └─structure
+│  │  │              ├─incremental
+│  │  │              │  └─components
+│  │  │              ├─km
+│  │  │              │  ├─internal
+│  │  │              │  │  ├─common
+│  │  │              │  │  └─extensions
+│  │  │              │  └─jvm
+│  │  │              │      └─internal
+│  │  │              ├─load
+│  │  │              │  ├─java
+│  │  │              │  │  ├─components
+│  │  │              │  │  ├─descriptors
+│  │  │              │  │  ├─lazy
+│  │  │              │  │  │  ├─descriptors
+│  │  │              │  │  │  └─types
+│  │  │              │  │  ├─sources
+│  │  │              │  │  ├─structure
+│  │  │              │  │  └─typeEnhancement
+│  │  │              │  └─kotlin
+│  │  │              │      └─header
+│  │  │              ├─metadata
+│  │  │              │  ├─builtins
+│  │  │              │  ├─deserialization
+│  │  │              │  ├─jvm
+│  │  │              │  │  └─deserialization
+│  │  │              │  └─serialization
+│  │  │              ├─name
+│  │  │              ├─platform
+│  │  │              ├─protobuf
+│  │  │              ├─renderer
+│  │  │              ├─resolve
+│  │  │              │  ├─calls
+│  │  │              │  │  └─inference
+│  │  │              │  ├─constants
+│  │  │              │  ├─deprecation
+│  │  │              │  ├─descriptorUtil
+│  │  │              │  ├─jvm
+│  │  │              │  ├─sam
+│  │  │              │  └─scopes
+│  │  │              │      └─receivers
+│  │  │              ├─serialization
+│  │  │              │  └─deserialization
+│  │  │              │      ├─builtins
+│  │  │              │      └─descriptors
+│  │  │              ├─storage
+│  │  │              ├─types
+│  │  │              │  ├─checker
+│  │  │              │  ├─error
+│  │  │              │  ├─extensions
+│  │  │              │  ├─model
+│  │  │              │  ├─typesApproximation
+│  │  │              │  └─typeUtil
+│  │  │              ├─util
+│  │  │              │  ├─capitalizeDecapitalize
+│  │  │              │  └─collectionUtils
+│  │  │              └─utils
+│  │  │                  └─addToStdlib
+│  │  ├─sequences
+│  │  ├─streams
+│  │  │  └─jdk8
+│  │  ├─system
+│  │  ├─text
+│  │  │  └─jdk8
+│  │  ├─time
+│  │  │  └─jdk8
+│  │  └─uuid
+│  ├─kotlinx
+│  │  └─coroutines
+│  │      ├─android
+│  │      ├─channels
+│  │      ├─debug
+│  │      │  └─internal
+│  │      ├─flow
+│  │      │  └─internal
+│  │      ├─future
+│  │      ├─internal
+│  │      ├─intrinsics
+│  │      ├─scheduling
+│  │      ├─selects
+│  │      ├─stream
+│  │      ├─sync
+│  │      └─time
+│  ├─net
+│  │  └─lingala
+│  │      └─zip4j
+│  │          ├─crypto
+│  │          │  ├─engine
+│  │          │  └─PBKDF2
+│  │          ├─exception
+│  │          ├─headers
+│  │          ├─io
+│  │          │  ├─inputstream
+│  │          │  └─outputstream
+│  │          ├─model
+│  │          │  └─enums
+│  │          ├─progress
+│  │          ├─tasks
+│  │          └─util
+│  ├─okhttp3
+│  │  └─internal
+│  │      ├─annotations
+│  │      ├─cache
+│  │      ├─cache2
+│  │      ├─connection
+│  │      ├─http
+│  │      ├─http1
+│  │      ├─http2
+│  │      ├─io
+│  │      ├─platform
+│  │      ├─proxy
+│  │      ├─publicsuffix
+│  │      ├─tls
+│  │      └─ws
+│  ├─okio
+│  ├─org
+│  │  ├─chromium
+│  │  │  └─support_lib_boundary
+│  │  │      └─util
+│  │  ├─intellij
+│  │  │  └─lang
+│  │  │      └─annotations
+│  │  ├─jetbrains
+│  │  │  └─annotations
+│  │  └─mozilla
+│  │      └─universalchardet
+│  │          └─prober
+│  │              ├─contextanalysis
+│  │              ├─distributionanalysis
+│  │              ├─sequence
+│  │              └─statemachine
+│  ├─pl
+│  │  └─droidsonroids
+│  │      └─gif
+│  │          ├─annotations
+│  │          └─transforms
+│  ├─uts
+│  │  └─sdk
+│  │      └─modules
+│  │          ├─DCloudUniArrayBufferToBase64
+│  │          ├─DCloudUniBase64ToArrayBuffer
+│  │          ├─DCloudUniChooseMedia
+│  │          ├─DCloudUniCreateRequestPermissionListener
+│  │          ├─DCloudUniExit
+│  │          ├─DCloudUniGetAccessibilityInfo
+│  │          ├─DCloudUniGetAppBaseInfo
+│  │          ├─DCloudUniGetDeviceInfo
+│  │          ├─DCloudUniGetSystemSetting
+│  │          ├─DCloudUniMedia
+│  │          ├─DCloudUniNetwork
+│  │          ├─DCloudUniPrivacy
+│  │          ├─DCloudUniPrompt
+│  │          ├─DCloudUniStorage
+│  │          └─dnInkprinterUts
+│  └─_COROUTINE
+└─sources
+    ├─android
+    │  └─support
+    │      └─v4
+    │          ├─app
+    │          ├─graphics
+    │          │  └─drawable
+    │          └─os
+    ├─androidtranscoder
+    │  ├─engine
+    │  ├─format
+    │  └─utils
+    ├─androidx
+    │  ├─activity
+    │  │  ├─contextaware
+    │  │  ├─ktx
+    │  │  └─result
+    │  │      └─contract
+    │  ├─annotation
+    │  │  └─experimental
+    │  ├─appcompat
+    │  │  ├─app
+    │  │  ├─content
+    │  │  │  └─res
+    │  │  ├─graphics
+    │  │  │  └─drawable
+    │  │  ├─resources
+    │  │  ├─text
+    │  │  ├─view
+    │  │  │  └─menu
+    │  │  └─widget
+    │  ├─arch
+    │  │  └─core
+    │  │      ├─executor
+    │  │      ├─internal
+    │  │      └─util
+    │  ├─collection
+    │  ├─concurrent
+    │  │  └─futures
+    │  ├─core
+    │  │  ├─accessibilityservice
+    │  │  ├─animation
+    │  │  ├─app
+    │  │  │  └─unusedapprestrictions
+    │  │  ├─content
+    │  │  │  ├─pm
+    │  │  │  └─res
+    │  │  ├─database
+    │  │  │  └─sqlite
+    │  │  ├─graphics
+    │  │  │  └─drawable
+    │  │  ├─hardware
+    │  │  │  ├─display
+    │  │  │  └─fingerprint
+    │  │  ├─internal
+    │  │  │  └─view
+    │  │  ├─ktx
+    │  │  ├─location
+    │  │  ├─math
+    │  │  ├─net
+    │  │  ├─os
+    │  │  ├─provider
+    │  │  ├─service
+    │  │  │  └─quicksettings
+    │  │  ├─telephony
+    │  │  │  └─mbms
+    │  │  ├─text
+    │  │  │  ├─method
+    │  │  │  └─util
+    │  │  ├─transition
+    │  │  ├─util
+    │  │  ├─view
+    │  │  │  ├─accessibility
+    │  │  │  ├─animation
+    │  │  │  ├─autofill
+    │  │  │  ├─contentcapture
+    │  │  │  └─inputmethod
+    │  │  └─widget
+    │  ├─cursoradapter
+    │  │  └─widget
+    │  ├─customview
+    │  │  ├─view
+    │  │  └─widget
+    │  ├─drawerlayout
+    │  │  └─widget
+    │  ├─emoji2
+    │  │  ├─text
+    │  │  │  └─flatbuffer
+    │  │  └─viewsintegration
+    │  ├─exifinterface
+    │  │  └─media
+    │  ├─fragment
+    │  │  └─app
+    │  ├─interpolator
+    │  │  └─view
+    │  │      └─animation
+    │  ├─lifecycle
+    │  │  ├─ktx
+    │  │  ├─livedata
+    │  │  │  └─core
+    │  │  ├─process
+    │  │  ├─runtime
+    │  │  └─viewmodel
+    │  │      ├─ktx
+    │  │      └─savedstate
+    │  ├─loader
+    │  │  ├─app
+    │  │  └─content
+    │  ├─localbroadcastmanager
+    │  │  └─content
+    │  ├─multidex
+    │  ├─profileinstaller
+    │  ├─recyclerview
+    │  │  └─widget
+    │  ├─resourceinspection
+    │  │  └─annotation
+    │  ├─savedstate
+    │  │  └─ktx
+    │  ├─startup
+    │  ├─tracing
+    │  ├─vectordrawable
+    │  │  ├─animated
+    │  │  └─graphics
+    │  │      └─drawable
+    │  ├─versionedparcelable
+    │  ├─viewpager
+    │  │  └─widget
+    │  └─webkit
+    │      └─internal
+    ├─bolts
+    ├─com
+    │  ├─alibaba
+    │  │  ├─android
+    │  │  │  └─bindingx
+    │  │  │      ├─core
+    │  │  │      │  └─internal
+    │  │  │      └─plugin
+    │  │  │          └─weex
+    │  │  └─fastjson
+    │  │      ├─annotation
+    │  │      ├─asm
+    │  │      ├─parser
+    │  │      │  └─deserializer
+    │  │      ├─serializer
+    │  │      ├─spi
+    │  │      ├─support
+    │  │      │  ├─config
+    │  │      │  ├─geo
+    │  │      │  ├─hsf
+    │  │      │  ├─jaxrs
+    │  │      │  ├─moneta
+    │  │      │  ├─retrofit
+    │  │      │  ├─spring
+    │  │      │  │  ├─annotation
+    │  │      │  │  └─messaging
+    │  │      │  └─springfox
+    │  │      └─util
+    │  ├─asus
+    │  │  └─msa
+    │  │      ├─sdid
+    │  │      └─SupplementaryDID
+    │  ├─bumptech
+    │  │  └─glide
+    │  │      ├─annotation
+    │  │      │  ├─compiler
+    │  │      │  └─ksp
+    │  │      ├─disklrucache
+    │  │      ├─gifdecoder
+    │  │      ├─load
+    │  │      │  ├─data
+    │  │      │  │  └─mediastore
+    │  │      │  ├─engine
+    │  │      │  │  ├─bitmap_recycle
+    │  │      │  │  ├─cache
+    │  │      │  │  ├─executor
+    │  │      │  │  └─prefill
+    │  │      │  ├─model
+    │  │      │  │  └─stream
+    │  │      │  └─resource
+    │  │      │      ├─bitmap
+    │  │      │      ├─bytes
+    │  │      │      ├─drawable
+    │  │      │      ├─file
+    │  │      │      ├─gif
+    │  │      │      └─transcode
+    │  │      ├─manager
+    │  │      ├─module
+    │  │      ├─provider
+    │  │      ├─request
+    │  │      │  ├─target
+    │  │      │  └─transition
+    │  │      ├─signature
+    │  │      └─util
+    │  │          └─pool
+    │  ├─bun
+    │  │  ├─lib
+    │  │  ├─miitmdid
+    │  │  │  ├─a
+    │  │  │  │  └─c
+    │  │  │  ├─b
+    │  │  │  ├─c
+    │  │  │  │  ├─b
+    │  │  │  │  ├─c
+    │  │  │  │  ├─d
+    │  │  │  │  ├─e
+    │  │  │  │  ├─f
+    │  │  │  │  ├─g
+    │  │  │  │  ├─h
+    │  │  │  │  ├─i
+    │  │  │  │  ├─j
+    │  │  │  │  │  └─b
+    │  │  │  │  └─k
+    │  │  │  ├─core
+    │  │  │  ├─d
+    │  │  │  └─supplier
+    │  │  │      ├─msa
+    │  │  │      └─sumsung
+    │  │  └─supplier
+    │  ├─dcloud
+    │  │  ├─android
+    │  │  │  ├─annotation
+    │  │  │  ├─downloader
+    │  │  │  │  ├─callback
+    │  │  │  │  ├─config
+    │  │  │  │  ├─core
+    │  │  │  │  │  ├─task
+    │  │  │  │  │  └─thread
+    │  │  │  │  ├─db
+    │  │  │  │  ├─domain
+    │  │  │  │  └─exception
+    │  │  │  ├─graphics
+    │  │  │  ├─v4
+    │  │  │  │  ├─accessibilityservice
+    │  │  │  │  ├─view
+    │  │  │  │  │  ├─accessibility
+    │  │  │  │  │  └─animation
+    │  │  │  │  └─widget
+    │  │  │  └─widget
+    │  │  │      ├─dialog
+    │  │  │      ├─photoview
+    │  │  │      └─toast
+    │  │  └─zxing2
+    │  │      ├─aztec
+    │  │      │  ├─decoder
+    │  │      │  ├─detector
+    │  │      │  └─encoder
+    │  │      ├─client
+    │  │      │  └─result
+    │  │      ├─common
+    │  │      │  ├─detector
+    │  │      │  └─reedsolomon
+    │  │      ├─datamatrix
+    │  │      │  ├─decoder
+    │  │      │  ├─detector
+    │  │      │  └─encoder
+    │  │      ├─maxicode
+    │  │      │  └─decoder
+    │  │      ├─multi
+    │  │      │  └─qrcode
+    │  │      │      └─detector
+    │  │      ├─oned
+    │  │      │  └─rss
+    │  │      │      └─expanded
+    │  │      │          └─decoders
+    │  │      ├─pdf417
+    │  │      │  ├─decoder
+    │  │      │  │  └─ec
+    │  │      │  ├─detector
+    │  │      │  └─encoder
+    │  │      └─qrcode
+    │  │          ├─decoder
+    │  │          ├─detector
+    │  │          └─encoder
+    │  ├─dmcbig
+    │  │  └─mediapicker
+    │  │      ├─adapter
+    │  │      ├─data
+    │  │      ├─entity
+    │  │      ├─utils
+    │  │      └─view
+    │  ├─facebook
+    │  │  ├─animated
+    │  │  │  ├─drawable
+    │  │  │  ├─gif
+    │  │  │  ├─webp
+    │  │  │  └─webpdrawable
+    │  │  ├─binaryresource
+    │  │  ├─cache
+    │  │  │  ├─common
+    │  │  │  └─disk
+    │  │  ├─callercontext
+    │  │  ├─common
+    │  │  │  ├─activitylistener
+    │  │  │  ├─callercontext
+    │  │  │  ├─closeables
+    │  │  │  ├─disk
+    │  │  │  ├─executors
+    │  │  │  ├─file
+    │  │  │  ├─internal
+    │  │  │  ├─lifecycle
+    │  │  │  ├─logging
+    │  │  │  ├─media
+    │  │  │  ├─memory
+    │  │  │  ├─references
+    │  │  │  ├─statfs
+    │  │  │  ├─streams
+    │  │  │  ├─time
+    │  │  │  ├─util
+    │  │  │  └─webp
+    │  │  ├─datasource
+    │  │  ├─drawable
+    │  │  │  └─base
+    │  │  ├─drawee
+    │  │  │  ├─backends
+    │  │  │  │  └─pipeline
+    │  │  │  │      └─info
+    │  │  │  │          └─internal
+    │  │  │  ├─components
+    │  │  │  ├─controller
+    │  │  │  ├─debug
+    │  │  │  │  └─listener
+    │  │  │  ├─drawable
+    │  │  │  ├─generic
+    │  │  │  ├─gestures
+    │  │  │  ├─interfaces
+    │  │  │  └─view
+    │  │  ├─fbcore
+    │  │  ├─fresco
+    │  │  │  ├─animation
+    │  │  │  │  ├─backend
+    │  │  │  │  ├─bitmap
+    │  │  │  │  │  ├─cache
+    │  │  │  │  │  ├─preparation
+    │  │  │  │  │  │  ├─loadframe
+    │  │  │  │  │  │  └─ondemandanimation
+    │  │  │  │  │  └─wrapper
+    │  │  │  │  ├─drawable
+    │  │  │  │  │  └─animator
+    │  │  │  │  ├─factory
+    │  │  │  │  └─frame
+    │  │  │  ├─common
+    │  │  │  │  └─middleware
+    │  │  │  ├─memorytypes
+    │  │  │  │  ├─ashmem
+    │  │  │  │  ├─nativememory
+    │  │  │  │  └─simple
+    │  │  │  ├─middleware
+    │  │  │  ├─soloader
+    │  │  │  ├─ui
+    │  │  │  │  ├─common
+    │  │  │  │  └─core
+    │  │  │  ├─urimod
+    │  │  │  └─vito
+    │  │  │      ├─options
+    │  │  │      ├─renderer
+    │  │  │      │  └─util
+    │  │  │      └─source
+    │  │  ├─imageformat
+    │  │  ├─imagepipeline
+    │  │  │  ├─animated
+    │  │  │  │  ├─base
+    │  │  │  │  ├─factory
+    │  │  │  │  ├─impl
+    │  │  │  │  └─util
+    │  │  │  ├─bitmaps
+    │  │  │  ├─cache
+    │  │  │  ├─common
+    │  │  │  ├─core
+    │  │  │  ├─datasource
+    │  │  │  ├─debug
+    │  │  │  ├─decoder
+    │  │  │  ├─drawable
+    │  │  │  ├─filter
+    │  │  │  ├─image
+    │  │  │  ├─instrumentation
+    │  │  │  ├─listener
+    │  │  │  ├─memory
+    │  │  │  ├─multiuri
+    │  │  │  ├─nativecode
+    │  │  │  ├─platform
+    │  │  │  ├─postprocessors
+    │  │  │  ├─producers
+    │  │  │  ├─request
+    │  │  │  ├─systrace
+    │  │  │  ├─transcoder
+    │  │  │  └─transformation
+    │  │  ├─imagepipelinebase
+    │  │  ├─imageutils
+    │  │  ├─infer
+    │  │  │  └─annotation
+    │  │  ├─memory
+    │  │  │  └─helper
+    │  │  ├─nativefilters
+    │  │  ├─nativeimagetranscoder
+    │  │  ├─soloader
+    │  │  │  ├─nativeloader
+    │  │  │  └─recovery
+    │  │  ├─webpsupport
+    │  │  └─widget
+    │  │      └─text
+    │  │          └─span
+    │  ├─frogtosea
+    │  │  └─ccdy
+    │  ├─google
+    │  │  └─common
+    │  │      └─util
+    │  │          └─concurrent
+    │  ├─heytap
+    │  │  └─openid
+    │  │      └─sdk
+    │  ├─hjq
+    │  │  └─permissions
+    │  ├─huawei
+    │  │  └─android
+    │  │      └─hms
+    │  │          └─pps
+    │  │              └─a
+    │  ├─j0data
+    │  │  └─sdk
+    │  ├─meizu
+    │  │  └─flyme
+    │  │      └─openidsdk
+    │  ├─nostra13
+    │  │  └─dcloudimageloader
+    │  │      ├─cache
+    │  │      │  ├─disc
+    │  │      │  │  ├─impl
+    │  │      │  │  └─naming
+    │  │      │  └─memory
+    │  │      │      └─impl
+    │  │      ├─core
+    │  │      │  ├─assist
+    │  │      │  │  └─deque
+    │  │      │  ├─decode
+    │  │      │  ├─display
+    │  │      │  ├─download
+    │  │      │  ├─imageaware
+    │  │      │  └─process
+    │  │      └─utils
+    │  ├─sample
+    │  │  ├─breakpad
+    │  │  └─breakpad_build
+    │  ├─samsung
+    │  │  └─android
+    │  │      └─deviceidservice
+    │  ├─taobao
+    │  │  └─weex
+    │  │      ├─adapter
+    │  │      ├─annotation
+    │  │      ├─appfram
+    │  │      │  ├─clipboard
+    │  │      │  ├─navigator
+    │  │      │  ├─pickers
+    │  │      │  ├─storage
+    │  │      │  └─websocket
+    │  │      ├─base
+    │  │      ├─bridge
+    │  │      ├─common
+    │  │      ├─dom
+    │  │      │  ├─binding
+    │  │      │  └─transition
+    │  │      ├─el
+    │  │      │  └─parse
+    │  │      ├─font
+    │  │      ├─http
+    │  │      ├─instance
+    │  │      ├─layout
+    │  │      │  └─measurefunc
+    │  │      ├─performance
+    │  │      ├─render
+    │  │      ├─tracing
+    │  │      ├─ui
+    │  │      │  ├─action
+    │  │      │  ├─animation
+    │  │      │  ├─component
+    │  │      │  │  ├─basic
+    │  │      │  │  ├─binding
+    │  │      │  │  ├─helper
+    │  │      │  │  ├─list
+    │  │      │  │  │  └─template
+    │  │      │  │  │      └─jni
+    │  │      │  │  ├─pesudo
+    │  │      │  │  └─richtext
+    │  │      │  │      ├─node
+    │  │      │  │      └─span
+    │  │      │  ├─config
+    │  │      │  ├─flat
+    │  │      │  │  └─widget
+    │  │      │  ├─module
+    │  │      │  └─view
+    │  │      │      ├─border
+    │  │      │      ├─gesture
+    │  │      │      ├─listview
+    │  │      │      │  └─adapter
+    │  │      │      └─refresh
+    │  │      │          ├─circlebar
+    │  │      │          ├─core
+    │  │      │          └─wrapper
+    │  │      ├─utils
+    │  │      │  ├─batch
+    │  │      │  ├─cache
+    │  │      │  └─tools
+    │  │      └─wson
+    │  └─zui
+    │      ├─deviceidservice
+    │      └─opendeviceidlibrary
+    ├─dc
+    │  └─squareup
+    │      ├─cookie
+    │      ├─okhttp3
+    │      │  └─internal
+    │      │      ├─cache
+    │      │      ├─cache2
+    │      │      ├─connection
+    │      │      ├─http
+    │      │      ├─http1
+    │      │      ├─http2
+    │      │      ├─io
+    │      │      ├─platform
+    │      │      ├─proxy
+    │      │      ├─publicsuffix
+    │      │      ├─tls
+    │      │      └─ws
+    │      └─okio
+    ├─io
+    │  ├─dcloud
+    │  │  ├─api
+    │  │  │  └─custom
+    │  │  │      ├─base
+    │  │  │      └─type
+    │  │  │          ├─draw
+    │  │  │          ├─feed
+    │  │  │          ├─full
+    │  │  │          ├─interstitial
+    │  │  │          ├─reward
+    │  │  │          └─splash
+    │  │  ├─application
+    │  │  ├─base
+    │  │  ├─common
+    │  │  │  ├─adapter
+    │  │  │  │  ├─io
+    │  │  │  │  ├─ui
+    │  │  │  │  │  ├─fresh
+    │  │  │  │  │  └─webview
+    │  │  │  │  └─util
+    │  │  │  ├─constant
+    │  │  │  ├─core
+    │  │  │  │  ├─a
+    │  │  │  │  ├─permission
+    │  │  │  │  └─ui
+    │  │  │  │      └─keyboard
+    │  │  │  ├─cs
+    │  │  │  ├─DHInterface
+    │  │  │  │  └─message
+    │  │  │  │      └─action
+    │  │  │  ├─ui
+    │  │  │  │  ├─blur
+    │  │  │  │  └─Info
+    │  │  │  └─util
+    │  │  │      ├─db
+    │  │  │      ├─emulator
+    │  │  │      ├─hostpicker
+    │  │  │      ├─language
+    │  │  │      └─net
+    │  │  │          └─http
+    │  │  ├─feature
+    │  │  │  ├─add
+    │  │  │  ├─audio
+    │  │  │  │  ├─aac
+    │  │  │  │  ├─mp3
+    │  │  │  │  └─recorder
+    │  │  │  ├─barcode2
+    │  │  │  │  ├─camera
+    │  │  │  │  ├─decoding
+    │  │  │  │  └─view
+    │  │  │  ├─bluetooth
+    │  │  │  ├─device
+    │  │  │  ├─gallery
+    │  │  │  │  └─imageedit
+    │  │  │  │      └─view
+    │  │  │  ├─gg
+    │  │  │  │  └─dcloud
+    │  │  │  │      └─dcmgr
+    │  │  │  ├─internal
+    │  │  │  │  ├─reflect
+    │  │  │  │  ├─sdk
+    │  │  │  │  └─splash
+    │  │  │  ├─nativeObj
+    │  │  │  │  ├─data
+    │  │  │  │  ├─photoview
+    │  │  │  │  │  └─subscaleview
+    │  │  │  │  │      └─decoder
+    │  │  │  │  └─richtext
+    │  │  │  │      ├─dom
+    │  │  │  │      └─span
+    │  │  │  ├─oauth
+    │  │  │  ├─pack
+    │  │  │  ├─payment
+    │  │  │  ├─pdr
+    │  │  │  ├─sensor
+    │  │  │  ├─ui
+    │  │  │  │  ├─nativeui
+    │  │  │  │  └─navigator
+    │  │  │  ├─uniapp
+    │  │  │  │  ├─adapter
+    │  │  │  │  ├─annotation
+    │  │  │  │  ├─bridge
+    │  │  │  │  ├─common
+    │  │  │  │  ├─dom
+    │  │  │  │  ├─layout
+    │  │  │  │  ├─ui
+    │  │  │  │  │  ├─action
+    │  │  │  │  │  ├─animation
+    │  │  │  │  │  ├─component
+    │  │  │  │  │  └─shadow
+    │  │  │  │  └─utils
+    │  │  │  │      └─bitmap
+    │  │  │  ├─utsplugin
+    │  │  │  ├─weex
+    │  │  │  │  ├─adapter
+    │  │  │  │  │  ├─Fresco
+    │  │  │  │  │  │  └─imagepipeline
+    │  │  │  │  │  ├─webview
+    │  │  │  │  │  │  └─video
+    │  │  │  │  │  └─widget
+    │  │  │  │  │      └─refresh
+    │  │  │  │  ├─config
+    │  │  │  │  └─extend
+    │  │  │  │      └─result
+    │  │  │  ├─weex_barcode
+    │  │  │  ├─weex_input
+    │  │  │  ├─weex_scroller
+    │  │  │  │  ├─helper
+    │  │  │  │  └─view
+    │  │  │  ├─weex_switch
+    │  │  │  ├─weex_text
+    │  │  │  └─weex_websocket
+    │  │  ├─glide
+    │  │  ├─includePermissions
+    │  │  ├─invocation
+    │  │  ├─js
+    │  │  │  ├─camera
+    │  │  │  ├─file
+    │  │  │  ├─gallery
+    │  │  │  └─geolocation
+    │  │  │      └─system
+    │  │  ├─net
+    │  │  ├─nineoldandroids
+    │  │  │  ├─animation
+    │  │  │  ├─util
+    │  │  │  └─view
+    │  │  │      └─animation
+    │  │  ├─p
+    │  │  ├─sdk
+    │  │  │  ├─activity
+    │  │  │  ├─base
+    │  │  │  │  ├─dcloud
+    │  │  │  │  ├─entry
+    │  │  │  │  └─service
+    │  │  │  │      └─provider
+    │  │  │  ├─core
+    │  │  │  │  ├─adapter
+    │  │  │  │  ├─entry
+    │  │  │  │  ├─interfaces
+    │  │  │  │  ├─module
+    │  │  │  │  ├─util
+    │  │  │  │  └─v3
+    │  │  │  │      ├─base
+    │  │  │  │      ├─cp
+    │  │  │  │      ├─drama
+    │  │  │  │      ├─dw
+    │  │  │  │      ├─fd
+    │  │  │  │      ├─fs
+    │  │  │  │      ├─inters
+    │  │  │  │      ├─pv
+    │  │  │  │      ├─rew
+    │  │  │  │      └─sp
+    │  │  │  └─poly
+    │  │  │      ├─api
+    │  │  │      └─base
+    │  │  │          └─utils
+    │  │  ├─share
+    │  │  ├─uniapp
+    │  │  │  └─extapi
+    │  │  ├─unicloud
+    │  │  ├─uts
+    │  │  │  ├─android
+    │  │  │  ├─component
+    │  │  │  ├─gson
+    │  │  │  │  ├─annotations
+    │  │  │  │  ├─internal
+    │  │  │  │  │  ├─bind
+    │  │  │  │  │  │  └─util
+    │  │  │  │  │  ├─reflect
+    │  │  │  │  │  └─sql
+    │  │  │  │  ├─reflect
+    │  │  │  │  └─stream
+    │  │  │  ├─json
+    │  │  │  ├─log
+    │  │  │  ├─nativeregex
+    │  │  │  ├─prompt
+    │  │  │  ├─task
+    │  │  │  ├─uniArrayBufferToBase64
+    │  │  │  ├─uniBase64ToArrayBuffer
+    │  │  │  ├─uniChooseMedia
+    │  │  │  ├─uniCreateRequestPermissionListener
+    │  │  │  ├─uniExit
+    │  │  │  ├─uniGetAccessibilityInfo
+    │  │  │  ├─uniGetAppBaseInfo
+    │  │  │  ├─uniGetDeviceInfo
+    │  │  │  ├─uniGetSystemSetting
+    │  │  │  ├─uniNetwork
+    │  │  │  ├─uniPrivacy
+    │  │  │  ├─uniStorage
+    │  │  │  └─utils
+    │  │  └─weex
+    │  └─src
+    │      └─dcloud
+    │          └─adapter
+    ├─javax
+    │  └─annotation
+    │      ├─concurrent
+    │      └─meta
+    ├─kotlin
+    │  ├─annotation
+    │  ├─annotations
+    │  │  └─jvm
+    │  ├─collections
+    │  │  ├─builders
+    │  │  ├─jdk8
+    │  │  └─unsigned
+    │  ├─comparisons
+    │  ├─concurrent
+    │  │  ├─atomics
+    │  │  └─internal
+    │  ├─contracts
+    │  ├─coroutines
+    │  │  ├─cancellation
+    │  │  ├─intrinsics
+    │  │  └─jvm
+    │  │      └─internal
+    │  ├─enums
+    │  ├─experimental
+    │  ├─internal
+    │  │  ├─jdk7
+    │  │  └─jdk8
+    │  ├─io
+    │  │  ├─encoding
+    │  │  └─path
+    │  ├─jdk7
+    │  ├─js
+    │  ├─jvm
+    │  │  ├─functions
+    │  │  ├─internal
+    │  │  │  ├─markers
+    │  │  │  └─unsafe
+    │  │  ├─jdk8
+    │  │  └─optionals
+    │  ├─math
+    │  ├─properties
+    │  ├─random
+    │  │  └─jdk8
+    │  ├─ranges
+    │  ├─reflect
+    │  │  ├─full
+    │  │  └─jvm
+    │  │      └─internal
+    │  │          ├─calls
+    │  │          └─impl
+    │  │              ├─builtins
+    │  │              │  ├─functions
+    │  │              │  └─jvm
+    │  │              ├─descriptors
+    │  │              │  ├─annotations
+    │  │              │  ├─deserialization
+    │  │              │  ├─impl
+    │  │              │  ├─java
+    │  │              │  └─runtime
+    │  │              │      ├─components
+    │  │              │      └─structure
+    │  │              ├─incremental
+    │  │              │  └─components
+    │  │              ├─km
+    │  │              │  ├─internal
+    │  │              │  │  ├─common
+    │  │              │  │  └─extensions
+    │  │              │  └─jvm
+    │  │              │      └─internal
+    │  │              ├─load
+    │  │              │  ├─java
+    │  │              │  │  ├─components
+    │  │              │  │  ├─descriptors
+    │  │              │  │  ├─lazy
+    │  │              │  │  │  ├─descriptors
+    │  │              │  │  │  └─types
+    │  │              │  │  ├─sources
+    │  │              │  │  ├─structure
+    │  │              │  │  └─typeEnhancement
+    │  │              │  └─kotlin
+    │  │              │      └─header
+    │  │              ├─metadata
+    │  │              │  ├─builtins
+    │  │              │  ├─deserialization
+    │  │              │  ├─jvm
+    │  │              │  │  └─deserialization
+    │  │              │  └─serialization
+    │  │              ├─name
+    │  │              ├─platform
+    │  │              ├─protobuf
+    │  │              ├─renderer
+    │  │              ├─resolve
+    │  │              │  ├─calls
+    │  │              │  │  └─inference
+    │  │              │  ├─constants
+    │  │              │  ├─deprecation
+    │  │              │  ├─descriptorUtil
+    │  │              │  ├─jvm
+    │  │              │  ├─sam
+    │  │              │  └─scopes
+    │  │              │      └─receivers
+    │  │              ├─serialization
+    │  │              │  └─deserialization
+    │  │              │      ├─builtins
+    │  │              │      └─descriptors
+    │  │              ├─storage
+    │  │              ├─types
+    │  │              │  ├─checker
+    │  │              │  ├─error
+    │  │              │  ├─extensions
+    │  │              │  ├─model
+    │  │              │  ├─typesApproximation
+    │  │              │  └─typeUtil
+    │  │              ├─util
+    │  │              │  ├─capitalizeDecapitalize
+    │  │              │  └─collectionUtils
+    │  │              └─utils
+    │  │                  └─addToStdlib
+    │  ├─sequences
+    │  ├─streams
+    │  │  └─jdk8
+    │  ├─system
+    │  ├─text
+    │  │  └─jdk8
+    │  ├─time
+    │  │  └─jdk8
+    │  └─uuid
+    ├─kotlinx
+    │  └─coroutines
+    │      ├─android
+    │      ├─channels
+    │      ├─debug
+    │      │  └─internal
+    │      ├─flow
+    │      │  └─internal
+    │      ├─future
+    │      ├─internal
+    │      ├─intrinsics
+    │      ├─scheduling
+    │      ├─selects
+    │      ├─stream
+    │      ├─sync
+    │      └─time
+    ├─net
+    │  └─lingala
+    │      └─zip4j
+    │          ├─crypto
+    │          │  ├─engine
+    │          │  └─PBKDF2
+    │          ├─exception
+    │          ├─headers
+    │          ├─io
+    │          │  ├─inputstream
+    │          │  └─outputstream
+    │          ├─model
+    │          │  └─enums
+    │          ├─progress
+    │          ├─tasks
+    │          └─util
+    ├─okhttp3
+    │  └─internal
+    │      ├─annotations
+    │      ├─cache
+    │      ├─cache2
+    │      ├─connection
+    │      ├─http
+    │      ├─http1
+    │      ├─http2
+    │      ├─io
+    │      ├─platform
+    │      ├─proxy
+    │      ├─publicsuffix
+    │      ├─tls
+    │      └─ws
+    ├─okio
+    ├─org
+    │  ├─chromium
+    │  │  └─support_lib_boundary
+    │  │      └─util
+    │  ├─intellij
+    │  │  └─lang
+    │  │      └─annotations
+    │  ├─jetbrains
+    │  │  └─annotations
+    │  └─mozilla
+    │      └─universalchardet
+    │          └─prober
+    │              ├─contextanalysis
+    │              ├─distributionanalysis
+    │              ├─sequence
+    │              └─statemachine
+    ├─pl
+    │  └─droidsonroids
+    │      └─gif
+    │          ├─annotations
+    │          └─transforms
+    ├─uts
+    │  └─sdk
+    │      └─modules
+    │          ├─DCloudUniArrayBufferToBase64
+    │          ├─DCloudUniBase64ToArrayBuffer
+    │          ├─DCloudUniChooseMedia
+    │          ├─DCloudUniCreateRequestPermissionListener
+    │          ├─DCloudUniExit
+    │          ├─DCloudUniGetAccessibilityInfo
+    │          ├─DCloudUniGetAppBaseInfo
+    │          ├─DCloudUniGetDeviceInfo
+    │          ├─DCloudUniGetSystemSetting
+    │          ├─DCloudUniMedia
+    │          ├─DCloudUniNetwork
+    │          ├─DCloudUniPrivacy
+    │          ├─DCloudUniPrompt
+    │          ├─DCloudUniStorage
+    │          └─dnInkprinterUts
+    └─_COROUTINE

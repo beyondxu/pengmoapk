@@ -1,0 +1,15 @@
+###### Class io.dcloud.common.DHInterface.IWebViewInstallListener (io.dcloud.common.DHInterface.IWebViewInstallListener)
+.class public interface abstract Lio/dcloud/common/DHInterface/IWebViewInstallListener;
+.super Ljava/lang/Object;
+.source "r8-map-id-605b2a5c8742184084f62a640225086eefcd9237ae25847375566b7136421843"
+
+
+# virtual methods
+.method public abstract onDownloadFinish(I)V
+.end method
+
+.method public abstract onDownloadProgress(I)V
+.end method
+
+.method public abstract onInstallFinish(I)V
+.end method
